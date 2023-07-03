@@ -40,7 +40,7 @@ To complete this challenge successfully, you should start a Git bash session in 
     no changes added to commit (use "git add" and/or "git commit -a")
     ```
 
--   In the "..." in the output above, you will see a line for each untracked file. Copy the line containing your solution file and paste it onto the first line of solution.txt. Make sure you don't copy spaces before or after, just the text itself. Otherwise, the verification script will fail.
+-   In the "..." in the output above, you will see a line for each untracked file. Copy the line containing your solution file and paste it on the first line of solution.txt. Make sure you don't copy any leading or trailing spaces, just the text itself. Otherwise, the verification script will fail.
 -   Stage the file and commit it to your local repository:
     ```console
     $ git add solution.txt
