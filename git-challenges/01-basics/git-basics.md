@@ -6,7 +6,7 @@
 
 ## 2. Introduction
 
-You already have already been given the general explanation of Git and its installation in the introduction challenge. In this challenge, you will be introduced to the basic operations of version control with Git: add, commit and push.
+You have already been given the general explanation of Git and its installation in the introduction challenge. In this challenge, you will be introduced to the basic operations of version control with Git: add, commit and push.
 
 Initially, when you make changes to files in your working directory, Git considers them to be in "untracked" state. By using the `git add` command, you can selectively choose which files to include in the next commit (move them to the "staged" state).
 
