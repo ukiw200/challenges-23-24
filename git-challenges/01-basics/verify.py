@@ -9,7 +9,7 @@ def verify():
         solution = file.read().strip().encode('utf-8')
 
     assert sha1(solution).hexdigest(
-    ) == '66918b524219ea3ae22e98bfd330ed920691a26a', 'FAIL: incorrect solution'
+    ) == '66918b524219ea3ae22e98bfd330ed920691a26a' or sha1(solution).hexdigest() == 'b9375ccde73c8cf45f53c95130f84ca71cc83044', 'FAIL: incorrect solution'
 
     solution2Path = os.path.join('challenge-1', 'solution.txt')
     assert os.path.exists(
