@@ -12,27 +12,43 @@ Initially, when you make changes to files in your working directory, Git conside
 
 The command `git commit` is used to save all the staged changes in the Git history. Every commit represents a snapshot of the changes made to the git repository.
 
-Finally, with `git push` you upload your local commits to a remote git repository. In this course, your remote repository is hosted in Github.
+Finally, with `git push` you upload your local commits to a remote git repository. In this course, your remote repository is hosted on Github.
 
 ## 3. Challenge
 
+To complete this challenge successfully, you should start a Git bash session in the folder where you have cloned the git-challenges repository. So not in the subdirectory "git-challenges/01-basics", but in the parent directory.
+
 ### 3.1. Add, commit and push a file
 
--   Create a new file in this folder named "solution.txt" and put your name on the first line and your student number on the second line.
--   In Git bash, run the following command:
+-   Create a new empty file in the same folder as these instructions with the name "solution.txt".
+-   In Git bash (started in the root challenges folder), run the following command:
 
-    ```bash
+    ```console
     $ git status
     ```
 
--   As you can see, git is now detecting the file. But it has not yet been added to our local git repository. To do this you execute:
-    ```bash
+-   You will see that git is not yet tracking the file. The output should look like:
+
+    ```text
+    On branch master
+    Your branch is up to date with 'origin/master'.
+
+    Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+            ...
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
+
+-   In the "..." in the output above, you will see a line for each untracked file. Copy the line containing your solution file and paste it onto the first line of solution.txt. Make sure you don't copy spaces before or after, just the text itself. Otherwise, the verification script will fail.
+-   Stage the file and commit it to your local repository:
+    ```console
     $ git add solution.txt
     $ git commit -m "Solution file"
     ```
     Via `git add` you tell git to track the file, `git commit` is going to effectively add the file to the local repository. With the "-m" option, you add a message to the commit.
 -   Now go to your github repository via a browser and navigate to the "git-challenges/01-basics" folder. As you can see, your solution.txt file is not there yet. This is because we need to "push" the changes you just made on your local repository to the remote version:
-    ```bash
+    ```console
     $ git push
     ```
     Refresh your browser and you will see that the file (with the commit message) is now present.
@@ -46,7 +62,7 @@ Finally, with `git push` you upload your local commits to a remote git repositor
 
 ### 3.2. Add, commit and push a folder
 
-Create a subfolder named 'challenge-1' in the '01-basics' folder. Create a new file "solution.txt" with the text "challenge 1 completed" on the first line. Make sure that this folder is pushed to your remote repository.
+Create a subfolder named 'challenge-1' in the '01-basics' folder. Create a new file "solution.txt" with the text `challenge 1 completed` on the first line. Make sure that this folder is pushed to your remote repository.
 
 ## 4. General rules
 
