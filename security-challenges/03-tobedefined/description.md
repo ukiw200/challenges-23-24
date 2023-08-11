@@ -19,22 +19,52 @@ This challenge is built upon the structure of a cyber attack (as described by Ma
 Other frameworks about the attaking process have been defined and are very relevant if you ever want to work in cyber security (either as a pentester or as a defender). Please take a look at the following:
 - MITRE ATT&CK Framework (https://attack.mitre.org/): A map of all tactics, techniques and procedures already used by some really advanced hacker groups (also called APT's = Advanced Persistent Threat). Explanation Video: https://youtu.be/GYyLnff2XRo 
 - Unified Kill Chain (https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf): Combining the Cyber Kill Chain and MITRE ATT&CK framework since more and more attacks are not just one end-to-end process and one attack can involve multiple cyber kill chains in order to obtain the final objective.
+<br>
+<br>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>TRY HACK ME</th>
+            <th>Subscription Mode</th>
+            <th>Room(s)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3><img src="./images/Expert.PNG" width="40%"> </td>
+            <td>FREE</td>
+            <td>https://tryhackme.com/room/mitre</td>
+        </tr>
+        <tr>
+            <td rowspan=2>PAYING MEMBER  </td>
+            <td>https://tryhackme.com/room/cyberkillchainzmt</td>
+        </tr>
+        <tr>
+            <td>https://tryhackme.com/room/unifiedkillchain</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
 
 ## 3. Challenge
 
 For each challenge there will be a flag to find. The flag (and format) will be specified. Each challenge requires a new line in your solution.txt file.
 
 ### 3.1. Reconnaissance
-Read about the reconnaissance phase of the cyber kill chain, what is the difference between active and passive reconnaissance? 
+Read about the reconnaissance phase of the cyber kill chain. Can you tell the difference between active and passive reconnaissance? 
 
 #### 3.1.1 Active versus Passive Reconnaissance
 
 Below are three actions performed by a hacker, what type of reconnaissance is the hacker doing (answer only with “A” for active and “P” for Passive)? 
-- The hacker visits the website of the UCLL school, hoping to get some of their employee names. What kind of reconnaissance activity is this? (A for active, P for passive) 
-- The hacker pings the IP address of the UCLL school webserver to check if ICMP traffic is blocked. What kind of reconnaissance activity is this? (A for active, P for passive)
-- The hacker meets the IT administrator of the UCLL and tries to use social engineering to get more information about their systems and network infrastructure. What kind of reconnaissance activity is this? (A for active, P for passive)
+- The hacker visits the website of the UCLL school, hoping to get some of their employee names. What kind of reconnaissance activity is this? 
+- The hacker pings the IP address of the UCLL school webserver to check if ICMP traffic is blocked. What kind of reconnaissance activity is this? 
+- The hacker meets the IT administrator of the UCLL and tries to use social engineering to get more information about their systems and network infrastructure. What kind of reconnaissance activity is this? 
 
-The flag corresponds to the three letters (A or P) that correspond to the answers. No spaces in between, for example, if you would answer P three times: __PPP__).
+The flag corresponds to the three letters (A or P) that correspond to the answers. For example, if you would answer P three times: __PPP__.
 
 #### 3.1.2 Google Dorking
 
@@ -51,26 +81,59 @@ Using the whois command is often the first thing to check for a website. It is a
 The flag is composed of several lines, one line per answer:
 - Line 1: The name of the registrar for the UCLL website
 - Line 2: The name (EN abbreviation) of the law preventing to show too much information when performing the whois command
-- Line 3: The name of the registrar for the Microsoft website
-- Line 4: The date when  Microsoft.com was registered? DDMMYYYY is the format to use (no other special characters)
+- Line 3: The full name of the registrar for the Microsoft website 
+- Line 4: The IANA ID number of the registrar for the Microsoft website 
 - Line 5: The full mail address of the domain administrator
 
 
-### 3.3. Task 
+### 3.2. Weaponization
+Read about the weaponization phase of the cyber kill chain. What kind of weapons could an attacker create? The most common weapon is some kind of malware. A list of different malware types can be found at: https://www.malwarefox.com/malware-types/
+
+- Make a malware
+- Reverse Engineer (analysis) - Static
+- Dynamically run in a sandbox
+
+
+#### 3.2.1 
+
+#### 3.2.2 
+
+#### 3.2.3 
+
+#### 3.2.4
+
+
+
+### 3.3. Delivery 
+
+Try to send this document to yourself ... does the mail solution detects anything suspicious?
+
+#### 3.3.1 
+
+#### 3.3.2
+
+#### 3.3.3 
+
+#### 3.3.4 
+
+
+
+### 3.4. Exploitation 
 
 ...
 
-### 3.4. Task 
+### 3.5. Installation 
 
 ...
 
-### 3.5. Task 
+### 3.6. Command & Control (C2) 
 
 ...
 
-### 3.6. Task 
+### 3.6. Action On Objectives 
 
 ...
+
 
 ## 4. General rules
 
