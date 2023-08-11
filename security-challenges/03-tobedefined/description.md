@@ -1,4 +1,4 @@
-# TO BE DEFINED
+# The Cyber Kill Chain
 
 ![Alt text](images/SunTzu.jpg?raw=true "Sun Tzu - The Art of War")
 
