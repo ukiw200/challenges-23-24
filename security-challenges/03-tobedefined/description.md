@@ -19,35 +19,7 @@ This challenge is built upon the structure of a cyber attack (as described by Ma
 Other frameworks about the attaking process have been defined and are very relevant if you ever want to work in cyber security (either as a pentester or as a defender). Please take a look at the following:
 - MITRE ATT&CK Framework (https://attack.mitre.org/): A map of all tactics, techniques and procedures already used by some really advanced hacker groups (also called APT's = Advanced Persistent Threat). Explanation Video: https://youtu.be/GYyLnff2XRo 
 - Unified Kill Chain (https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf): Combining the Cyber Kill Chain and MITRE ATT&CK framework since more and more attacks are not just one end-to-end process and one attack can involve multiple cyber kill chains in order to obtain the final objective.
-<br>
-<br>
 
-
-<table>
-    <thead>
-        <tr>
-            <th style="text-align: center">TRY HACK ME</th>
-            <th style="text-align: left">Subscription Mode</th>
-            <th style="text-align: left">Room(s)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=3 style="text-align: center"><img src="./images/Expert.PNG" width="50%"> </td>
-            <td>FREE</td>
-            <td>https://tryhackme.com/room/mitre</td>
-        </tr>
-        <tr>
-            <td rowspan=2>PAYING MEMBER  </td>
-            <td>https://tryhackme.com/room/cyberkillchainzmt</td>
-        </tr>
-        <tr>
-            <td>https://tryhackme.com/room/unifiedkillchain</td>
-        </tr>
-    </tbody>
-</table>
-
-<br>
 
 
 ## 3. Challenge
@@ -118,8 +90,18 @@ Try to send this document to yourself ... does the mail solution detects anythin
 
 
 ### 3.4. Exploitation 
+Exploitation is the fase where a vulnerability in the system is being exploited. However, most of the time, the vulnerability being exploited is the human behind the system. This type of attack can be described as "Social Engineering". The most common attack is a phishing attack that, which we will explore in detail in here. However, the social engineering attack starts with some basic reconnaissance, weaponization and delivery as well. 
 
-...
+Map the following activities to the correct phase of the Cyber Kill Chain (R for reconnaissance, W for weaponization and D for Delivery):
+- the attacker must prepare a web page to grab credentials
+- the attacker must know where to send his message to 
+- the attacker must prepare a convincing message to persuade users into clicking the link
+- the attacker must find a way of getting his message to the users
+
+
+
+
+
 
 ### 3.5. Installation 
 
@@ -130,8 +112,16 @@ Try to send this document to yourself ... does the mail solution detects anythin
 ...
 
 ### 3.6. Action On Objectives 
+A threat actor can either be an individual, but most likely it will be a group of hackers that have sophisticated skills and a lot of money (often referred to as an APT). A threat actor can have several motivations to perform a cyber attack. They might be interested in:
 
-...
+- the money (performed by criminal organizations), often by compromising systems or exfiltrating data and asking for a ransom 
+- seeking the thrill and satisfaction (performed by thrill-seekers)
+- espionage for geopolitical advantages, cyber warfare (performed by nation states)
+- making a statement for good purposes (performed by hacktivists) or for bad purposes like terrorism (performed by terrorist groups), often by performing a denial-of-service (DoS) attack
+- making a statement for bad purposes form inside of the organization (performed by insiders)
+
+
+
 
 
 ## 4. General rules
