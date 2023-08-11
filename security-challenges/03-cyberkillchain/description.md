@@ -142,7 +142,7 @@ These C2 frameworks provide various capabilities, including the ability to execu
 The knowledge and understanding of C2 infrastructure are essential for both offensive (ethical hacking, penetration testing) and defensive (cybersecurity) purposes.
 
 #### 3.6.1 TASK Reading and understanding a detailled incident report
-On this page, you can find a detailled report of a cyber security incident, which has been occurring since August 2022. Read the report and try to understand the concepts we have seen. Answer the following questions:
+On this page (https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/), you can find a detailled report of a cyber security incident, which has been occurring since August 2022. Read the report and try to understand the concepts we have seen. Answer the following questions:
 
 - What APT was behind the incident? We need the MITRE ID of this APT Group: G0049
 - What was most likely the delivery method of the mailicous Word file? We need the Mitre Technique ID: T1566 
