@@ -1,4 +1,4 @@
-# Git basics
+# Phishing
 
 ## 1. Prerequisites
 
