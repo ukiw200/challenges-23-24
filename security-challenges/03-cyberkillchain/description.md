@@ -137,11 +137,28 @@ Several C2 frameworks (also known as C2 tools or platforms) are used by both mal
 
     - PowerShell Empire: A post-exploitation framework built on top of PowerShell, enabling attackers to control compromised systems through PowerShell scripts. It's particularly effective in environments where PowerShell is commonly used.
 
-These C2 frameworks provide various capabilities, including the ability to execute commands on compromised systems, pivot through networks, maintain persistence, exfiltrate data, and simulate different types of attacks. It's important to note that while these tools can be used by security professionals for legitimate purposes, they can also be misused by malicious actors, highlighting the importance of cybersecurity awareness and defense.
+These C2 frameworks provide various capabilities, including the ability to execute commands on compromised systems, pivot through networks, maintain persistence, exfiltrate data, and simulate different types of attacks. It's important to note that while these tools can be used by security professionals for legitimate purposes, they can also be misused by malicious actors, highlighting the importance of cybersecurity awareness and defense. 
 
-Remember, the knowledge and understanding of C2 infrastructure are essential for both offensive (ethical hacking, penetration testing) and defensive (cybersecurity) purposes.
+The knowledge and understanding of C2 infrastructure are essential for both offensive (ethical hacking, penetration testing) and defensive (cybersecurity) purposes.
 
-### 3.6. Action On Objectives 
+#### 3.6.1 TASK Reading and understanding a detailled incident report
+On this page, you can find a detailled report of a cyber security incident, which has been occurring since August 2022. Read the report and try to understand the concepts we have seen. Answer the following questions:
+
+- What APT was behind the incident? We need the MITRE ID of this APT Group: G0049
+- What was most likely the delivery method of the mailicous Word file? We need the Mitre Technique ID: T1566 
+- When parsing the Macro, what was the first suspicious behavior dectected? We need the exact wording as mentioned in the output: May read system environment variables
+- Sysmon is a tool available in the Microsoft ... (enter the useful toolset we already mentioned in this challenge that contains Sysmon as well): SysInternals Suite
+- What sysmon event ID notified us about the creation of Script.ps1 file? 11
+- What's the name of the first scheduled task created to obtain persistence? WindowsUpdate
+- what's the name of the second scheduled task created? MicrosoftEdgeUpdateTaskMachineUC
+- For discovering the current state of the victim's antivirus product, what command is executed (hint: powershell command)? Get-MpComputerStatus
+- Run this command on your own laptop/pc to see if your antivirus is working correctly and up-to-date.
+- How did the attackers grab the data (we need the generic name for this type of maware): keylogger
+- what's the full Mitre Technique ID for this activity? T1056.001
+- Data was sent to the C2 server at this IP address: 45.89.125.189
+
+
+### 3.7. Action On Objectives 
 A threat actor can either be an individual, but most likely it will be a group of hackers that have sophisticated skills and a lot of money (often referred to as an APT). A threat actor can have several motivations to perform a cyber attack. They might be interested in:
 
 - the money (performed by criminal organizations), often by compromising systems or exfiltrating data and asking for a ransom 
@@ -149,8 +166,6 @@ A threat actor can either be an individual, but most likely it will be a group o
 - espionage for geopolitical advantages, cyber warfare (performed by nation states)
 - making a statement for good purposes (performed by hacktivists) or for bad purposes like terrorism (performed by terrorist groups), often by performing a denial-of-service (DoS) attack
 - making a statement for bad purposes form inside of the organization (performed by insiders)
-
-
 
 
 
