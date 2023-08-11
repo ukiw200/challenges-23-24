@@ -3,7 +3,7 @@
 ![Alt text](images/SunTzu.jpg?raw=true "Sun Tzu - The Art of War")
 
 ## 0. Code Of Conduct
-In these challenges you will learn some basic cyber security skills including ethical hacking. It is crucial to understand (and therefor necessary to do as a first challenge) that you need to follow a code of conduct and respect any laws and regulations applicable. If you are not sure if it is legal and wihtout consequences, do not do it! 
+In these challenges you will learn some basic cyber security skills including ethical hacking. It is crucial to understand (and therefor necessary to do as a first challenge) that you need to follow a code of conduct and respect any laws and regulations applicable. If you are not sure if it is legal and without consequences --> DO NOT PROCEED! 
 
 The examples below all refer to the UCLL website for which you have the right to perform the suggested actions. If you - unintentionally - do find confidential or personal data, you should inform us asap through e-mail at the following email address: privacy@ucll.be 
 
@@ -27,14 +27,16 @@ For each challenge there will be a flag to find. The flag (and format) will be s
 ### 3.1. Reconnaissance
 Read about the reconnaissance phase of the cyber kill chain, what is the difference between active and passive reconnaissance? 
 
+#### 3.1.1 Active versus Passive Reconnaissance
+
 Below are three actions performed by a hacker, what type of reconnaissance is the hacker doing (answer only with “A” for active and “P” for Passive)? 
-	The hacker visits the website of the UCLL school, hoping to get some of their employee names. What kind of reconnaissance activity is this? (A for active, P for passive) 
-	The hacker pings the IP address of the UCLL school webserver to check if ICMP traffic is blocked. What kind of reconnaissance activity is this? (A for active, P for passive)
-	The hacker meets the IT administrator of the UCLL and tries to use social engineering to get more information about their systems and network infrastructure. What kind of reconnaissance activity is this? (A for active, P for passive)
+- The hacker visits the website of the UCLL school, hoping to get some of their employee names. What kind of reconnaissance activity is this? (A for active, P for passive) 
+- The hacker pings the IP address of the UCLL school webserver to check if ICMP traffic is blocked. What kind of reconnaissance activity is this? (A for active, P for passive)
+- The hacker meets the IT administrator of the UCLL and tries to use social engineering to get more information about their systems and network infrastructure. What kind of reconnaissance activity is this? (A for active, P for passive)
 
 The flag corresponds to the three letters (A or P) that correspond to the answers. No spaces in between, for example, if you would answer P three times: __PPP__).
 
-### 3.2. Google Dorking
+#### 3.1.2 Google Dorking
 
 Info: https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practical-tutorial/
 
@@ -42,7 +44,31 @@ Google Dork the internet to find a PDF file from the UCCL college in which there
 
 The flag corresponds to the highligthed number (xxxxxxx) in the third column. Example: __0864795__
 
-### 3.1. Task 2
+#### 3.1.3 Whois
+
+Using the whois command is often the first thing to check for a website. It is available in any Linux environment or WSL in your Windows environment (or also in the Microsoft SysInternals Suite, highly underestimated tools which are very useful for security purposes, documentation: https://learn.microsoft.com/en-us/sysinternals/). Using whois, answer the following questions.
+
+The flag is composed of several lines, one line per answer:
+- Line 1: The name of the registrar for the UCLL website
+- Line 2: The name (EN abbreviation) of the law preventing to show too much information when performing the whois command
+- Line 3: The name of the registrar for the Microsoft website
+- Line 4: The date when  Microsoft.com was registered? DDMMYYYY is the format to use (no other special characters)
+- Line 5: The full mail address of the domain administrator
+
+
+### 3.3. Task 
+
+...
+
+### 3.4. Task 
+
+...
+
+### 3.5. Task 
+
+...
+
+### 3.6. Task 
 
 ...
 
