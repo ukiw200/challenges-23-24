@@ -2,7 +2,7 @@
 
 ## 1. Prerequisites
 
--   Introduction challenge (with git installation and explanation) is completed.
+[git introduction](./../00-introduction/00-introduction.md) read and movies watched.
 
 ## 2. Introduction
 
@@ -43,7 +43,7 @@ To complete this challenge successfully, you should start a Git bash session in 
 -   In the "..." in the output above, you will see a line for each untracked file. Copy the line containing your solution file and paste it on the first line of solution.txt. Make sure you don't copy any leading or trailing spaces, just the text itself. Otherwise, the verification script will fail.
 -   Stage the file and commit it to your local repository:
     ```console
-    $ git add solution.txt
+    $ git add git-challenges/01-basics/solution.txt
     $ git commit -m "Solution file"
     ```
     Via `git add` you tell git to track the file, `git commit` is going to effectively add the file to the local repository. With the "-m" option, you add a message to the commit.
