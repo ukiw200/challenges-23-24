@@ -133,7 +133,6 @@ These C2 frameworks provide various capabilities, including the ability to execu
 
 The knowledge and understanding of C2 infrastructure are essential for both offensive (ethical hacking, penetration testing) and defensive (cybersecurity) purposes.
 
-#### 3.6.1 TASK Reading and understanding a detailled incident report
 On this page (https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/), you can find a detailled report of a cyber security incident, which has been occurring since August 2022. Read the report and try to understand the concepts we have seen. Answer the following questions:
 
 - What APT was behind the incident? We need the MITRE ID of this APT Group: 
@@ -144,7 +143,7 @@ On this page (https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repe
 - What's the name of the first scheduled task created to obtain persistence? 
 - what's the name of the second scheduled task created? 
 - For discovering the current state of the victim's antivirus product, what command is executed (hint: powershell command)? 
-- Run this command on your own laptop/pc to see if your antivirus is working correctly and up-to-date.
+- (this line does not generate an answer line in your solution.txt file) Run this command on your own laptop/pc to see if your antivirus is working correctly and up-to-date.
 - How did the attackers grab the data (we need the generic name for this type of maware): 
 - What's the full Mitre Technique ID for this activity? 
 - Data was sent (exfiltrated) to the C2 server at this IP address: 
@@ -160,7 +159,6 @@ A threat actor can either be an individual, but most likely it will be a group o
 - making a statement for good purposes (performed by hacktivists) or for bad purposes like terrorism (performed by terrorist groups), often by performing a denial-of-service (DoS) attack
 - making a statement for bad purposes form inside of the organization (performed by insiders)
 
-#### 3.7.1 TASK Reading and understanding a detailled incident report
 In the previous report, what is the general motivation of the APT that was behind the incident (we only need the first word of the previously mentioned motivations): 
 
 
