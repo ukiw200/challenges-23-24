@@ -11,6 +11,7 @@ If you do stumble upon confidential information or a vunerability for an organiz
 Your challenge will only succeed if you start the solution.txt file for this part with "I agree to the rules mentioned below"
 
 Rules:
+
     Respect Privacy: Always respect individuals' privacy and personal data, ensuring they remain confidential and protected.
 
     Seek Permission: Obtain explicit permission before testing systems, networks, or applications, respecting the boundaries of authorized targets.
