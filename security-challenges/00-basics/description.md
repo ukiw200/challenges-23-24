@@ -4,6 +4,33 @@
 
 One of the platforms offering free and interactive security challenges is "Try Hack Me" (but others exist too, like Hack The Box). Create a free account on the www.tryhackme.com platform.
 
+In some of the challenges you will learn some basic cyber security skills including ethical hacking. It is crucial to understand (and therefor necessary) that you need to follow a code of conduct and respect any laws and regulations applicable. If you are not sure if it is legal and without consequences --> DO NOT PROCEED! 
+
+If you do stumble upon confidential information or a vunerability for an organization, read their "responsible disclosure" section and contact the organization immediately with your findings. For organizations in Belgium, you can read the following: https://ccb.belgium.be/nl/bekendmaking-van-kwetsbaarheden-aan-het-ccb
+
+Your challenge will only succeed if you start the solution.txt file for this part with "I agree to the rules mentioned below"
+
+Rules:
+    Respect Privacy: Always respect individuals' privacy and personal data, ensuring they remain confidential and protected.
+
+    Seek Permission: Obtain explicit permission before testing systems, networks, or applications, respecting the boundaries of authorized targets.
+
+    Stay Within Scope: Limit activities to the scope defined by agreements or legal permissions, avoiding any unauthorized access.
+
+    Report Vulnerabilities: Promptly disclose identified vulnerabilities to relevant stakeholders, supporting efforts to secure systems.
+
+    Share Knowledge: Contribute to the cybersecurity community by sharing insights, discoveries, and methods to improve overall security.
+
+    Do No Harm: Avoid causing damage, disruption, or loss while conducting security assessments.
+
+    Continuous Learning: Commit to ongoing learning and professional development to stay current in evolving technologies and threats.
+
+    Transparent Communication: Maintain clear and open communication with clients, collaborators, and affected parties.
+
+    Lawful Behavior: Adhere to all laws and regulations governing cybersecurity activities, respecting ethical and legal boundaries.
+
+    Accountability: Take responsibility for actions, continuously refining ethical practices to advance cybersecurity without compromising integrity."
+
 
 ## 2. Introduction
 
@@ -23,7 +50,7 @@ Create a textfile solution.txt in the directory of this file. Answer the followi
 
 3. What type of motivation is behind this collective? (format: xxx)
 
-Your textfile should contain 3 lines (no capitals, all small characters).
+Your textfile should contain 3 lines (no capitals, all small characters) ... or not ;-)? 
 
 ## 4. General rules
 
