@@ -2,15 +2,9 @@
 
 ![Alt text](images/SunTzu.jpg?raw=true "Sun Tzu - The Art of War")
 
-## 0. Code Of Conduct
-In these challenges you will learn some basic cyber security skills including ethical hacking. It is crucial to understand (and therefor necessary to do as a first challenge) that you need to follow a code of conduct and respect any laws and regulations applicable. If you are not sure if it is legal and without consequences --> DO NOT PROCEED! 
-
-The examples below all refer to the UCLL website for which you have the right to perform the suggested actions. If you - unintentionally - do find confidential or personal data, you should inform us asap through e-mail at the following email address: privacy@ucll.be 
-
 ## 1. Prerequisites
 
--   Challenges that need to be completed before this one.
--   ...
+None.
 
 ## 2. Introduction
 
@@ -24,7 +18,7 @@ Other frameworks about the attaking process have been defined and are very relev
 
 ## 3. Challenge
 
-For each challenge there will be a flag to find. The flag (and format) will be specified. Each challenge requires a new line in your solution.txt file.
+For each challenge there will be a flag to find. The flag (and format) will be specified. Each challenge requires a new line in your solution.txt file. Most of the challenges will require multiple lines in your solution.txt file (one line for each answer).
 
 ### 3.1. Reconnaissance
 Read about the reconnaissance phase of the cyber kill chain. Can you tell the difference between active and passive reconnaissance? 
@@ -67,7 +61,7 @@ Did you enable the macro in Word on your computer? This could have been dangerou
 
 Check both tools for this file.
 
-The solution.txt is composed of several lines, one line per answer:
+The flag is composed of several lines, one line per answer:
 - Line 1: MD5 hash of the file
 - Line 2: What MITRE Technique is being used (we need the identifier, starting with T)? 
 - Line 3: What was the main goal of using this technique? Hint: two words starting with “D”
@@ -77,7 +71,9 @@ The solution.txt is composed of several lines, one line per answer:
 
 ### 3.3. Delivery 
 
-Try to send this document to yourself ... does the mail solution detects anything suspicious?
+Try to send this document as attachment to yourself ... does the mail solution detects anything suspicious? do you even get the e-mail or a notification of suspicious mail?
+
+For this step, attackers usually employ different social engineering techniques to get their link of malware to the victim. Complete the following tryhackme room and learn about them: https://tryhackme.com/room/commonattacks 
 
 #### 3.3.1 
 
