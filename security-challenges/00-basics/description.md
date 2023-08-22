@@ -1,65 +1,29 @@
-# Phishing
+# Security Basics
 
 ## 1. Prerequisites
 
-- Creating a free account on the www.tryhackme.com platform (niet meer nodig in mijn nieuwe vorm)
+One of the platforms offering free and interactive security challenges is "Try Hack Me" (but others exist too, like Hack The Box). Create a free account on the www.tryhackme.com platform.
 
 
 ## 2. Introduction
 
-
+Thoughout these challenges we will introduce you to the field of cyber security. In order to understand the field of cyber security, you need to be familiar with some basic concepts. These concepts will be built upon or exlpored even more in other courses during your bachelor's program. Make sure you understand them well and success is in your hands!
 
 ## 3. Challenge
 
+Complete the following free rooms on "Try Hack Me": 
+- https://tryhackme.com/room/securityawarenessintro 
+- https://tryhackme.com/room/principlesofsecurity
 
-### 3.1. Add, commit and push a file
+Create a textfile solution.txt in the directory of this file. Answer the following questions (a new line for each answer) and push your solution to your GitHub repository:
 
--   Create a new empty file in the same folder as these instructions with the name "solution.txt".
--   In Git bash (started in the root challenges folder), run the following command:
+1. What website is useful to know about when checking if your account (and possibly the password for it) might have been leaked through a data breach? (format: xxx.com, so no "https" or "www" or whatsoever in front of the URL)
 
-    ```console
-    $ git status
-    ```
+2. What famous hackers collective has been in the news many times already? Their logo has been used in many movies and tv shows too. (format: xxx)
 
--   You will see that git is not yet tracking the file. The output should look like:
+3. What type of motivation is behind this collective? (format: xxx)
 
-    ```text
-    On branch master
-    Your branch is up to date with 'origin/master'.
-
-    Untracked files:
-        (use "git add <file>..." to include in what will be committed)
-            ...
-
-    no changes added to commit (use "git add" and/or "git commit -a")
-    ```
-
--   In the "..." in the output above, you will see a line for each untracked file. Copy the line containing your solution file and paste it on the first line of solution.txt. Make sure you don't copy any leading or trailing spaces, just the text itself. Otherwise, the verification script will fail.
--   Stage the file and commit it to your local repository:
-    ```console
-    $ git add solution.txt
-    $ git commit -m "Solution file"
-    ```
-    Via `git add` you tell git to track the file, `git commit` is going to effectively add the file to the local repository. With the "-m" option, you add a message to the commit.
--   Now go to your github repository via a browser and navigate to the "git-challenges/01-basics" folder. As you can see, your solution.txt file is not there yet. This is because we need to "push" the changes you just made on your local repository to the remote version:
-    ```console
-    $ git push
-    ```
-    Refresh your browser and you will see that the file (with the commit message) is now present.
--   You can run the status command again. Normally, the output should be as follows:
-
-    ```text
-    Your branch is up to date with 'origin/master'.
-
-    nothing to commit, working tree clean
-    ```
-
-### 3.2. Add, commit and push a folder
-
-Create a new file "solution.txt" with the same flag as entered in the tryhackme room 
-
- named 'challenge-1' in the '01-basics' folder. Create a new file "solution.txt" with the text `challenge 1 completed` on the first line. Make sure that this folder is pushed to your remote repository.
-
+Your textfile should contain 3 lines.
 
 ## 4. General rules
 
