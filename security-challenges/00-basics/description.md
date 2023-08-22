@@ -23,7 +23,7 @@ Create a textfile solution.txt in the directory of this file. Answer the followi
 
 3. What type of motivation is behind this collective? (format: xxx)
 
-Your textfile should contain 3 lines.
+Your textfile should contain 3 lines (no capitals, all small characters).
 
 ## 4. General rules
 
