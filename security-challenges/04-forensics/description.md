@@ -1,4 +1,4 @@
-# Security Basics
+# Forensics
 
 ## 1. Prerequisites
 
@@ -22,7 +22,7 @@ Create a textfile solution.txt in the directory of this file. Answer the followi
 
 2. What forensics tool does remind us of a murder investigation?
 
-3. If an incident occurred has been investigated and we have found the IP of the botnet server that was instructing bots to attack company ACME, what does this IP represent? We are looking for the abbreviation.
+3. If an incident occurred, it has been investigated and we have found the IP of the botnet server that was instructing bots to attack company ACME, what does this IP represent? We are looking for the abbreviation.
 
 Your textfile should contain 3 lines (all capitals).
 
