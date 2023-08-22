@@ -7,7 +7,7 @@ One of the platforms offering free and interactive security challenges is "Try H
 
 ## 2. Introduction
 
-Thoughout these challenges we will introduce you to the field of cyber security. In order to understand the field of cyber security, you need to be familiar with some basic concepts. These concepts will be built upon or exlpored even more in other courses during your bachelor's program. Make sure you understand them well and success is in your hands!
+Thoughout these challenges we will introduce you to the field of cyber security. In order to understand the field of cyber security, you need to be familiar with some basic concepts. These concepts will be built upon or explored even more in other courses during your bachelor's program. Make sure you understand them well and success is in your hands!
 
 ## 3. Challenge
 
