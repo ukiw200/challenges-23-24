@@ -7,7 +7,6 @@ def verify():
 
     with open('solution.txt') as file:
         solution = sha1(file.read().strip().encode('utf-8')).hexdigest()
-        print(solution)
 
     assert solution == 'fd37a11c625d87133c0e26a903e3260192a048d3', 'FAIL: incorrect solution'
 
