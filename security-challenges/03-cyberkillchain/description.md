@@ -75,33 +75,29 @@ Try to send this document as attachment to yourself ... does the mail solution d
 
 For this step, attackers usually employ different social engineering techniques to get their link of malware to the victim. Complete the following tryhackme room and learn about them: https://tryhackme.com/room/commonattacks 
 
-#### 3.3.1 
-
-#### 3.3.2
-
-#### 3.3.3 
-
-#### 3.3.4 
-
+The flag for this task is the "Try Hack Me" flag for the above room, task 3.
 
 
 ### 3.4. Exploitation 
-Exploitation is the fase where a vulnerability in the system is being exploited. However, most of the time, the vulnerability being exploited is the human behind the system. This type of attack can be described as "Social Engineering". The most common attack is a phishing attack that, which we will explore in detail in here. However, the social engineering attack starts with some basic reconnaissance, weaponization and delivery as well. 
+Exploitation is the phase where a vulnerability in the system is being exploited.
 
-Map the following activities to the correct phase of the Cyber Kill Chain (R for reconnaissance, W for weaponization and D for Delivery):
-- the attacker must prepare a web page to grab credentials
-- the attacker must know where to send his message to 
-- the attacker must prepare a convincing message to persuade users into clicking the link
-- the attacker must find a way of getting his message to the users
+To learn more about vulnerabilities, please complete the following room: https://tryhackme.com/room/vulnerabilities101
+
+For those who want to really fully complete the exploitation of a vulnerability, this is a good (and free) room: https://tryhackme.com/room/blue
 
 
-
+The flag for this task is (one line per answer):
+1. The "Try Hack Me" flag for the "Vulnerabilities 101" room, task 6.
+2. The CVSS v.3.1 vector string for the following vulnerability: "An arbitrary file upload vulnerability exists in the "SecureApp" web application version 2.0. Attackers with low to medium privileges can exploit this vulnerability by uploading malicious files via the application's file upload feature. Successful exploitation may lead to remote code execution and unauthorized access to the server."
 
 
 
 ### 3.5. Installation 
 
-...
+Having our malware delivered and a vulnerability exploited at the victim, it's time to install a shell, backdoor, etc. We need something to gain "xxxx".
+
+The flag for this task is what we want to gain from this phase (one word, no capitals).
+
 
 ### 3.6. Command & Control (C2) 
 
