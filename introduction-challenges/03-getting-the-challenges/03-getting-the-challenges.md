@@ -8,7 +8,7 @@ You have a GitHub account.
 
 ## 2. Introduction
 
-In this challenge we will make sure that you have access to the challenges locally.
+In this challenge we will make sure that you have access to the challenges on your own computer.
 
 ## 3. Challenge
 
@@ -16,7 +16,7 @@ In this challenge we will make sure that you have access to the challenges local
 
 1. Navigate to <a href="link toevoegen" target="_blank">this page</a>
 1. Select your name from the list
-    * Selecting your name makes sure that we see your real name instead of your GitHub username in overview screens
+    * Selecting your name in assignments like this makes sure that we see your real name instead of your GitHub username in overview screens
     * This is very helpful for us when managing large groups of students (eg. when searching the repository of a certain student)
     * It can be that your name is not in the list (especially if you enrolled later), select `Skip to the next step` in this case
 1. Click on `Accept this assignment`

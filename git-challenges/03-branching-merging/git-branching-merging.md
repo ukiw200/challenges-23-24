@@ -65,6 +65,6 @@ In order to get a "SUCCESS" from the verify script, you will need to make sure t
 
 [learngitbranching.js](https://learngitbranching.js.org/) is an amazing resource to learn git, since it shows the impact of your commands clearly and visually.
 
-You've now seen the basics of git (committing, pushing, pulling, branching, merging and reverting) but there is much more to learn. Continuing to make the challenges and learning even more of git (rebasing, cherry-picking, tagging, detaching, ...) is not necessary but is a very powerful asset in your studies and later in your career.
+You've now seen the basics of git (committing, pushing, pulling, branching, merging and reverting) but there is much more to learn. Continuing with the levels on the site and learning even more of git (rebasing, cherry-picking, tagging, detaching, ...) is not necessary but is a very powerful asset in your studies and later in your career.
 
 Remember [learngitbranching.js](https://learngitbranching.js.org/) when you want to learn more!

@@ -2,15 +2,17 @@
 
 ## 1. Prerequisites
 
-Security-challenges 1 to 4 done.
+Encryption line from the security challenges completed.
 
 ## 2. Introduction
 
-When using git and GitHub, you need to authenticate yourself with GitHub (remember [this challenge](./../../introduction-challenge/03-getting-the-challenges/03-getting-the-challenges.md) where we authenticated with a token or with a credentials manager).
+When using git and GitHub, you need to authenticate yourself with GitHub (remember [this challenge](./../../introduction-challenge/03-getting-the-challenges/03-getting-the-challenges.md) where we authenticated with a token or via a credentials manager).
 
-Remember from the [encryption challenges]((./../../security-challenges/01-encryption/03-symmetric-and-asymmetric-encryption/03-symmetric-and-asymmetric-encryption.md)) that using asymmetric keys is a very strong method of proving your identity.
+Remember from the [encryption challenges]((./../../security-challenges/01-encryption/03-symmetric-and-asymmetric-encryption/03-symmetric-and-asymmetric-encryption.md)) that using asymmetric keys is also a very strong method of proving your identity and thus authenticating.
 
-In this challenge, we will configure **SSH** keys to authenticate with GitHub, eliminating the need for a token or a credentials manager. SSH is a tool that allows you to connect securely with servers, it uses asymmetric encryption for authentication behind the screens. You can find some background information on SSH [here](https://levelup.gitconnected.com/what-is-ssh-103f89e3e4b8).
+In this challenge, we will configure **SSH** keys to authenticate with GitHub, eliminating the need for a token or a credentials manager. SSH is a tool that allows you to connect securely with servers, it uses asymmetric encryption for authentication behind the screens. 
+
+You can find some background information on SSH [here](https://levelup.gitconnected.com/what-is-ssh-103f89e3e4b8). You'll see that it also symmetric encryption after the connection is made!
 
 ## 3. Challenge
 

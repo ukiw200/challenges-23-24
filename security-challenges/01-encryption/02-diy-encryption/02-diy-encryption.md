@@ -13,11 +13,11 @@ One of the oldest encryption systems is attributed to Julius Ceasar and is calle
 The idea is very simple, we encrypt a message by replacing each letter with a different letter that comes later in the alphabet:
 
 ```text
-Plain	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z
-Cipher	X	Y	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W
+Plain	    A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z
+Encrypted	X	Y	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W
 ```
 
-The distance between the original and the replaced letter is the _key_ necessary for decrypting the message. In the example above the key is 23.
+The distance between the original and the encrypted letter is the _key_ necessary for decrypting the message. In the example above the key is 23.
 
 Encrypting a message with the Ceasar Cipher is as easy as replacing every letter in the message. `I am a secret` becomes `F xj x pbzobq` wity key 23.
 
@@ -25,7 +25,7 @@ Decrypting a message is easy if you know the key. Unfortunately it is also not t
 
 ## 3. Challenge
 
-Create a textfile `solution.txt` in the directory of this file. Answer the following questions and push your solution to your GitHub repository:
+Create a textfile `solution.txt` in the directory of this file. Answer the following question and push your solution to your GitHub repository:
 
 1. Encode this string using a Ceasar Cipher with key 5: `Ceasar Cipher is a very easy encryption technique`. Upper case characters are encrypted to upper case characters and lower case characters to lower case characters.
 
