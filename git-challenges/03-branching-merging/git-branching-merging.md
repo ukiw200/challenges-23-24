@@ -34,21 +34,23 @@ Return to this challenge after finishing the necessary levels.
 
 To complete this challenge successfully, perform the following steps:
 
-1. Switch to a new git branch called "challenge-3-branch"
-1. Create a new empty file in the same folder as these instructions with the name "solution.txt".
-1. Write the following text in "solution.txt": `This text was added in challenge-3-branch`
-1. Commit your changes and push "challenge-3-branch" to GitHub
+1. Switch to a new git branch called `challenge-3-branch`
+1. Create a new empty file in the same folder as these instructions with the name `solution.txt`
+1. Write the following text in `solution.txt`: `This text was added in challenge-3-branch`
+1. Commit your changes and push `challenge-3-branch` to GitHub
     1. Check via the GitHub UI that everything is pushed
-1. Switch to the main branch
-1. Create a new empty file in the same folder as these instructions with the name "solution.txt".
-1. Write the following text in "solution.txt": `This text was added in main branch`
+1. Switch to the `main` branch
+1. Create a new empty file in the same folder as these instructions with the name `solution.txt`
+1. Write the following text in `solution.txt`: `This text was added in main branch`
 1. Commit your changes and push your main branch to GitHub
     1. Check via the GitHub UI that everything is pushed
-1. Merge "challenge-3-branch" in "main"
-1. Resolve the merge conflict, make sure that "solution.txt" contains the line `This text was added in challenge-3-branch` after merging
+1. Merge `challenge-3-branch` in `main`
+1. Resolve the merge conflict, make sure that `solution.txt` contains the line `This text was added in challenge-3-branch` after merging
+    1. You can find more information about how to resolve merge conflicts [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+    1. A merge conflict occurs because the same file had different changes on different branches _at the same time_. When merging the branches back together, git can not know which of the changes should be kept, leading to a conflict between the changes.
 1. Commit and push main
 
-We will check your solution using the verify script and by examining your commits on GitHub. Do not remove the "challenge-3-branch" on GitHub!
+We will check your solution using the verify script and by examining your commits on GitHub. Do not remove the `challenge-3-branch` on GitHub!
 
 ## 4. General rules
 
