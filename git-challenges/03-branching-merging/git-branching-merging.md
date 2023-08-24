@@ -14,12 +14,21 @@ Every commit is like a "save" that you can return to. The history of your files 
 
 In the previous challenge we've seen that you can easily revert one of these commits to undo a whole batch of changes in one go.
 
-In this challenge we'll go a further and see how git allows you to play with multiple "lines" of commits at the same time, this is called _branching_.
+In this challenge we'll go further and see how git allows you to play with multiple "lines" of commits at the same time, this is called _branching_.
 
-To prepare yourself for this challenge, go to [learngitbranching.js](https://learngitbranching.js.org/) and complete the following levels:
+By default, all your work is performed on the _main_ (or _master_ in older repositories) branch. By adding branches, you can have multiple copies of the same file at the same time with different changes, and easily switch between them.
 
-1. Main - Introduction Sequence: Level 1-2-3-4
-1. Remote - Push & Pull -- Git Remotes!: Level 1-2-3-4-5-6-7
+If you want to combine commits of two branches (and combine all the changes in those commits), you can _merge_ two branches back together.
+
+To learn how branching and merging works and to prepare yourself for this challenge, go to [learngitbranching.js](https://learngitbranching.js.org/) and complete the following levels:
+
+1. Main - Introduction Sequence: Level 1-2-3
+1. Main - Ramping Up: Level 1-2-3-4
+1. Remote - Push & Pull -- Git Remotes!: Level 1-2-3-4-5-6-7 (level 7 with merge, you do not need to understand rebase)
+
+Every level has a goal that you can reach by typing git commands in the editor. You can always type "undo" to undo your last command.
+
+Return to this challenge after finishing the necessary levels.
 
 ## 3. Challenge
 
@@ -39,7 +48,7 @@ To complete this challenge successfully, perform the following steps:
 1. Resolve the merge conflict, make sure that "solution.txt" contains the line `This text was added in challenge-3-branch` after merging
 1. Commit and push main
 
-We will check your solution using the verify script and by examining your commits on GitHub.
+We will check your solution using the verify script and by examining your commits on GitHub. Do not remove the "challenge-3-branch" on GitHub!
 
 ## 4. General rules
 
