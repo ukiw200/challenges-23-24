@@ -15,8 +15,8 @@ Since you'll be reading markdown files instead of writing them most of the time 
 
 Go to Settings -> Workbench -> Editor Associations. Select "Add Item" and add the value `vscode.markdown.preview.editor` for item `\*.md`. 
 
-Mardown files are now openend in preview instead of source code by default.
+Markdown files are now openend in preview instead of source code by default.
 
-## Verify your solution
+## Verifying your solution
 
 Every challenge you submit will be checked by running the verify script. You can always run the verify script yourself to see if you have completed the challenge successfully. Always run the verify script from the directory it is defined in.

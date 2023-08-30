@@ -10,13 +10,18 @@ In this challenge we will install and configure Visual Studio Code.
 1. Download the right installer
     * Are you using Windows? Choose the System Installer x64.
     * Are you using macOS? Click the big `Download for Mac` button.
-    
-    <a href="./download-options.png" target="_blank">
-        <img src="./download-options.png">
-    </a>
 
-1. Execute the installer
+<a href="./download-options.png" target="_blank">
+    <img src="./download-options.png">
+</a>
+
+3. Execute the installer
     * Are you using Windows? Pay attention to the following settings:
         * Install Visual Studio Code in the suggested location
         * Let the installer add `Open with Code` to the context menu (both file and directory)
         * Let the installer add the program to the PATH
+3. Let the installer finish and open VS Code
+3. Since you'll be reading markdown files instead of writing them most of the time it might be useful to change the default behaviour to preview mode. 
+    * Go to Settings -> Workbench -> Editor Associations. 
+    * Select "Add Item" and add the value `vscode.markdown.preview.editor` for item `\*.md`. 
+    * Markdown files are now openend in preview instead of source code by default.
