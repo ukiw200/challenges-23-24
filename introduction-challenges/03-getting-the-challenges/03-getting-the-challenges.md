@@ -27,16 +27,16 @@ In this challenge we will make sure that you have access to the challenges on yo
 
 1. If you clicked the link to your assignment repository you should land on a page that looks like this (the URLs and repository names will be different of course):
 
-    <a href="./cloning-a-repository.png" target="_blank">
-        <img src="./cloning-a-repository.png">
-    </a>
+<a href="./cloning-a-repository.png" target="_blank">
+    <img src="./cloning-a-repository.png">
+</a>
 
 1. This screen will make more sense after working with git for a bit. For now, just follow the instructions as provided here.
 1. Make sure that `HTTP` is selected. Then copy the URL.
 
-    <a href="./cloning-a-repository-2.png" target="_blank">
-        <img src="./cloning-a-repository-2.png">
-    </a>
+<a href="./cloning-a-repository-2.png" target="_blank">
+    <img src="./cloning-a-repository-2.png">
+</a>
 
 1. Open a shell by...
      * On Windows, opening start and typing `git bash` followed by enter
