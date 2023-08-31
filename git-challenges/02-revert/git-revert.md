@@ -20,6 +20,8 @@ When you revert a commit, it is important to note that git creates a new commit 
     <img src="./revert.png">
 </a>
 
+In the figure above, commit D reverts the changes from commit C, reverting `Solution.txt` to version B.
+
 You can revert a commit by running the following command:
 
 ```console
