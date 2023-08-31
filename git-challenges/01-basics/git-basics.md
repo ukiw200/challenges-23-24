@@ -12,8 +12,8 @@ Initially, when you make changes to files in your working directory, Git conside
 
 The command `git commit` is used to save all the staged changes in the Git history. Every commit represents a snapshot of the changes made to the git repository. We can visualize the history of commits as a sequence of snapshots of the files in the repository. The following figure shows an example of a commit history:
 
-<a href="./snapshots.png" target="_blank">
-    <img src="./snapshots.png">
+<a href="./commit-history.png" target="_blank">
+    <img src="./commit-history.png">
 </a>
 
 Every circle in the figure above represents a commit, every commit is a new version (snapshot) of the file "hello.py".
