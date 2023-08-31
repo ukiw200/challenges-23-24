@@ -16,7 +16,7 @@ The command `git commit` is used to save all the staged changes in the Git histo
     <img src="./commit-history.png">
 </a>
 
-Every circle in the figure above represents a commit, every commit is a new version (snapshot) of the file "hello.py".
+Every circle in the figure above represents a commit, every commit is a new version (snapshot) of the file "Solution.txt".
 
 Finally, with `git push` you upload your local commits to a remote git repository. In this course, your remote repository is hosted on Github.
 
