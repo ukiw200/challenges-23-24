@@ -10,7 +10,13 @@ You have already been given the general explanation of Git and its installation 
 
 Initially, when you make changes to files in your working directory, Git considers them to be in "untracked" state. By using the `git add` command, you can selectively choose which files to include in the next commit (move them to the "staged" state).
 
-The command `git commit` is used to save all the staged changes in the Git history. Every commit represents a snapshot of the changes made to the git repository.
+The command `git commit` is used to save all the staged changes in the Git history. Every commit represents a snapshot of the changes made to the git repository. We can visualize the history of commits as a sequence of snapshots of the files in the repository. The following figure shows an example of a commit history:
+
+<a href="./snapshots.png" target="_blank">
+    <img src="./snapshots.png">
+</a>
+
+Every circle in the figure above represents a commit, every commit is a new version (snapshot) of the file "hello.py".
 
 Finally, with `git push` you upload your local commits to a remote git repository. In this course, your remote repository is hosted on Github.
 
@@ -20,7 +26,7 @@ To complete this challenge successfully, you should start a Git bash session in 
 
 ### 3.1. Add, commit and push a file
 
--   Create a new empty file in the same folder as these instructions with the name "solution.txt".
+-   Create a new empty file in the same folder as these instructions (git-challenges/01-basics) with the name "solution.txt".
 -   In Git bash (started in the root challenges folder), run the following command:
 
     ```console
