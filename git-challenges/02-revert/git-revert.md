@@ -38,7 +38,7 @@ $ git revert f7f3f6d --no-edit
 
 The above command reverts the code to the version in the "updated solution" commit.
 
-## 2 Challenge
+## 2. Challenge
 
 Follow the instructions in the text below to complete the challenge.
 
