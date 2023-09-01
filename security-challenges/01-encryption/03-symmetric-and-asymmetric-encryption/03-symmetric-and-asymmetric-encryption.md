@@ -23,7 +23,7 @@ As an example, I have created an RSA keypair consisting of a private and a publi
 The encrypted message is as follows:
 
 ```
-PxBB+ziGdxJAM7DK/ZhO43JM6uYfUHd149jzsA+0iDiX44P+2kzyWsyMJ5p5N9LNIT2juOsCO5aOI+b0kMpp+sOHNXvku6eJEPMVFimXhFtFwbjmAOaoMLpxTWoGU4Vub3CEm9Kl15m2hKivceznZQqrJccb4ugnaz4DpsfCfvY=
+lui6+keJcMbAdzM2gYF27xEFI1dNhOEc0DQfg0W3eLbqlYIEym2oU7ht+0tf6eN6SmQ7d19QJqnms+eX9cmsHN/vLH52Jc1MXBrPsvVNkuTMRlw257ax8zIlu9QzL74QT77oSjJ8tzvkNSePUn3RfMr3fkV3Ef5Mdee6lLwgHC0=
 ```
 
 (As an aside, not how the encrypted message is also encoded in [Base 64](../01-base64/01-base64.md).)
@@ -31,12 +31,12 @@ PxBB+ziGdxJAM7DK/ZhO43JM6uYfUHd149jzsA+0iDiX44P+2kzyWsyMJ5p5N9LNIT2juOsCO5aOI+b0
 The public key is as follows:
 
 ```
-MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhOxy8bQkylWZIj/IGBZjevE0ea+F7AyRVxPONHeLozUM0BED50L27xxtl/Q4dWgNfgv1fcOGrpPbm4aqqNI1yCKfAuyB/Dm4Eu5o7D6s6Vm81paPu+elsB4Oi+2QeES2QhIAygOBiVTbnF/5olej+hlikKlxbg45fl9vDl334jQIDAQAB
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwmIlkO7KiZlESLc2g/Q6Oa8928DK/sizHG3ehUb3o1B99yCCPAKl/SWtxWhxtyd1kn3PUaqayiq6uFOHUWlhuxe4UoX4S7gt10bpulPEEl7suyjV0ajw2+r7sTbdtpfxaw2Lgtfpg0Dlfh42TiHEsAQ7N5k7wdOun0iVsVkrrHQIDAQAB
 ```
 
 Using the site (use Cipher Type RSA in the dropdown), what was the encrypted message?
 
-Create a textfile `solution.txt` in the directory of this file. Your textfile should contain 1 line. Push your solution to your GitHub repository
+Create a textfile `solution.txt` in the directory of this file. Your textfile should contain 1 line. Push your solution to your GitHub repository.
 
 ## 4. General rules
 
