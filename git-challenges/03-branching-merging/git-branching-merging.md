@@ -6,7 +6,7 @@ We already saw how git allows you to make snapshots of changes to files as commi
 
 Imagine that you have been working in a git repository for quite a while, as you've made more and more changes, you've also saved them often in commits.
 
-Every commit is like a "save" that you can return to. The history of your files can be shown as a sequence of commits in order:
+Every commit is like a "save" that you can return to. You already know that the history of your files can be shown as a sequence of commits in order:
 
 <a href="./commit-history.png" target="_blank">
     <img src="./commit-history.png">

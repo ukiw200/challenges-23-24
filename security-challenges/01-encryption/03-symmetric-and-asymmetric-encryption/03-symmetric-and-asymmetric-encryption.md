@@ -26,6 +26,8 @@ The encrypted message is as follows:
 PxBB+ziGdxJAM7DK/ZhO43JM6uYfUHd149jzsA+0iDiX44P+2kzyWsyMJ5p5N9LNIT2juOsCO5aOI+b0kMpp+sOHNXvku6eJEPMVFimXhFtFwbjmAOaoMLpxTWoGU4Vub3CEm9Kl15m2hKivceznZQqrJccb4ugnaz4DpsfCfvY=
 ```
 
+(As an aside, not how the encrypted message is also encoded in [Base 64](../01-base64/01-base64.md).)
+
 The public key is as follows:
 
 ```

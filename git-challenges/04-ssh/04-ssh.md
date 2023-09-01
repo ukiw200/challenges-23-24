@@ -12,7 +12,7 @@ Remember from the [encryption challenges]((./../../security-challenges/01-encryp
 
 In this challenge, we will configure **SSH** keys to authenticate with GitHub, eliminating the need for a token or a credentials manager. SSH is a tool that allows you to connect securely with servers, it uses asymmetric encryption for authentication behind the screens. 
 
-You can find some background information on SSH [here](https://levelup.gitconnected.com/what-is-ssh-103f89e3e4b8). You'll see that it also symmetric encryption after the connection is made!
+You can find some background information on SSH [here](https://levelup.gitconnected.com/what-is-ssh-103f89e3e4b8). You'll see that it also uses symmetric encryption after the connection is made!
 
 ## 3. Challenge
 

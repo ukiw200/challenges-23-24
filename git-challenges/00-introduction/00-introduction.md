@@ -22,9 +22,11 @@ In short, git is a tool for managing and tracking changes to files. Git provides
 
 Git does this by using _repositories_ and _commits_: 
 - A repository is a directory in which git is active and is tracking all files
-- A commit is a sort of a save of certain files in the repository
+- A commit is a sort of save of certain files in the repository
     - How do all files added to the commit look at the moment?
     - What are the changes since the last commit?
+
+On first glance, this might look a bit like Google Drive or Dropbox. But git is far more powerful than those tools and gives users far more control.
 
 You can use git for all kinds of text-based files but we will mainly use it in the context of programming. When we work on a programming project we will always do so in a git repository and use git to track and share all files.
 

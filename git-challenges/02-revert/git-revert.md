@@ -4,7 +4,7 @@
 
 Imagine you are working on a project and you have just committed a change that you want to undo. How do you do that? In this challenge, you will learn how to undo a commit using the `git revert` command.
 
-Remember that a commit is a snapshot of your project at a specific point in time. The commit history is a chain of commits that are linked together. Each commit has a unique identifier called a hash. The hash is a string that looks like this: `a5f4a0d`. You can view your project's commit history by running the `git log` command.
+Remember that a commit is a snapshot of your project at a specific point in time. The commit history is a chain of commits that are linked together. Each commit has a unique identifier called a hash. The hash is a string that looks like this: `a5f4a0d`. You can view your project's commit history by running the `git log` command. By adding the `--oneline` flag to `git log` the output is summarized. Try running the command with and without the flag. 
 
 ```console
 $ git log --oneline

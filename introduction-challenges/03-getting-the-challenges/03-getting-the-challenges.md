@@ -32,7 +32,7 @@ In this challenge we will make sure that you have access to the challenges on yo
 </a>
 
 1. This screen will make more sense after working with git for a bit. For now, just follow the instructions as provided here.
-1. Make sure that `HTTP` is selected. Then copy the URL.
+1. Make sure that `HTTPS` is selected. Then copy the URL.
 
 <a href="./cloning-a-repository-2.png" target="_blank">
     <img src="./cloning-a-repository-2.png">
@@ -52,7 +52,7 @@ In this challenge we will make sure that you have access to the challenges on yo
 1. When you enter your password you will get a warning that it is not allowed to interact with GitHub via your "root" account password. You have two options:
      * [Using a Credentials Manager](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git#git-credential-manager)
      * [Using a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
-1. Normally the Credentials Manager will open automatically and you can proceed. If it does not, follow the guide to create and use a Personal Access Token
+1. Normally the Credentials Manager will open automatically and you can proceed. If it does not, follow the guide to create and use a Personal Access Token.
      * Note, if you have already used git in the past with a different GitHub account it might be that those credentials are still stored in your Credentials Manager. Search how you can remove them or ask a teacher for help.
 1. After authenticating yourself you can retry the clone command:
    ```bash
