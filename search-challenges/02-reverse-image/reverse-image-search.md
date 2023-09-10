@@ -24,7 +24,7 @@ In the following challenges, you will see a series of images. Find a reverse ima
 
     ![image](4.jpg)
 
-1.  This person is widely respected as one of the founders of the free (and open source) software movement. He is also the creator of a popular program in the Unix world. Together with this program there is another popular alternative that serves the same purpose and with which there was years of rivalry between the users. The name of that alternative program consists of two letters. Which two letters?
+1.  This person is widely respected as one of the founders of the free (and open source) software movement. He is also the creator of a popular program in the Unix world. There is another popular alternative to this program that serves the same purpose. It has been a source of rivalry between users for years. The name of that alternative program consists of two letters. Which two letters?
 
     ![image](5.jpg)
 
