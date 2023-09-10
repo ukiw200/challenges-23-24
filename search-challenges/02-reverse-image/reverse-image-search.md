@@ -4,7 +4,7 @@
 
 Instead of using text-based search queries, you can also use images to find information. This is called "reverse image search". The technology behind reverse image search is based on **Content Based Image Retrieval (CBIR)**. CBIR is a technique that uses the visual content of an image (colour, texture, shape...). This is different from **text-based image retrieval (TBIR)**, which uses metadata such as keywords, tags or descriptions to find images. CBIR is also often used to find similar images to an image.
 
-In the following challenges, you will see a series of images. Create a solution.txt and on every line, write the information that is asked for.
+In the following challenges, you will see a series of images. Find a reverse image search engine on the internet and look for the information that is asked for. Sometimes you will need multiple search queries to find the answer. Create a solution.txt and write the answer of each question on a separate line.
 
 ## 2. Challenge
 
@@ -12,11 +12,11 @@ In the following challenges, you will see a series of images. Create a solution.
 
     ![image](1.jpg)
 
-1.  Which programming language did the person in this image create? (1 word)
+1.  This person also created a famous programming language. The name of that programming language is also the name of a theme park ride in The Netherlands. What is the name of that theme park? (1 word)
 
     ![image](2.jpg)
 
-1.  This person is famous for creating the kernel of a popular operating system. While developing that kernel, he also created a version management system that is widely used today. What is the name of that version management system? (1 word)?
+1.  This person is famous for creating the kernel of a popular operating system. While developing that kernel, he also created a version management system that is widely used today. What is the name of that version management system? (1 word)
 
     ![image](3.jpg)
 
