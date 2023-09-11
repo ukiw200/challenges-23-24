@@ -20,7 +20,7 @@ In the following challenges, you will see a series of images. Find a reverse ima
 
     ![image](3.jpg)
 
-1.  This person also invented a programming language. The name of that programming language is also the brand of a non-IT product that nevertheless is a necessity for many programmers to write clean code. What is the name of that product (not the brand)? (1 word, in English)
+1.  This person also invented a programming language. The name of that programming language is also the brand of a non-IT product that nevertheless is a necessity for many programmers to find solutions to problems. What is the name of that product (not the brand)? (1 word, in English)
 
     ![image](4.jpg)
 
