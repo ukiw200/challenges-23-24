@@ -30,7 +30,7 @@ Every level has a goal that you can reach by typing git commands in the editor. 
 
 Return to this challenge after finishing the necessary levels.
 
-## 3. Challenge
+## 2. Challenge
 
 To complete this challenge successfully, perform the following steps:
 
@@ -52,7 +52,7 @@ To complete this challenge successfully, perform the following steps:
 
 We will check your solution using the verify script and by examining your commits on GitHub. Do not remove the `challenge-3-branch` on GitHub!
 
-## 4. General rules
+## 3. General rules
 
 In order to get a "SUCCESS" from the verify script, you will need to make sure that:
 
@@ -61,7 +61,7 @@ In order to get a "SUCCESS" from the verify script, you will need to make sure t
 -   Never make changes to the verify script (yes, we will verify all verify scripts afterwards). Changes to the verify script will result in a "FAIL" for the entire challenge.
 -   You will only receive a "SUCCESS" if you complete all the steps successfully. If you only complete part of the challenge steps, you will receive a "FAIL" for the entire challenge.
 
-## 5. Extra
+## 4. Extra
 
 [learngitbranching.js](https://learngitbranching.js.org/) is an amazing resource to learn git, since it shows the impact of your commands clearly and visually.
 

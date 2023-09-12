@@ -23,7 +23,7 @@ Encrypting a message with the Ceasar Cipher is as easy as replacing every letter
 
 Decrypting a message is easy if you know the key. Unfortunately it is also not that difficult without knowing the key. Since there are only 26 keys, trying them all will surely give you the answer. Another help for decrypting is frequency analysis. Some letters occur more in text than others. By counting letters in encrypted text it is possible to guess which encrypted letter corresponds to an `e` for example, making it easier to guess the key used for encrypting.
 
-## 3. Challenge
+## 2. Challenge
 
 Create a textfile `solution.txt` in the directory of this file. Answer the following question and push your solution to your GitHub repository:
 
@@ -31,7 +31,7 @@ Create a textfile `solution.txt` in the directory of this file. Answer the follo
 
 Your textfile should contain 1 line.
 
-## 4. General rules
+## 3. General rules
 
 In order to get a "SUCCESS" from the verify script, you will need to make sure that:
 

@@ -1,6 +1,6 @@
 # Shell
 
-# 1. Introduction
+## 1. Introduction
 
 The Linux shell is a command-line interface (CLI) that allows users to interact with the Linux operating system by entering text-based commands. It provide tools for file system management, text processing, scripting and much more.
 

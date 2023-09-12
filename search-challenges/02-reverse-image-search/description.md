@@ -1,6 +1,6 @@
 # Reverse image search
 
-# 1. Introduction
+## 1. Introduction
 
 Instead of using text-based search queries, you can also use images to find information. This is called "reverse image search". The technology behind reverse image search is based on **Content Based Image Retrieval (CBIR)**. CBIR is a technique that uses the visual content of an image (colour, texture, shape...). This is different from **text-based image retrieval (TBIR)**, which uses metadata such as keywords, tags or descriptions to find images. CBIR is also often used to find similar images to an image.
 
