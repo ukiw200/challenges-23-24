@@ -1,6 +1,6 @@
 # Git revert
 
-# 1. Introduction
+## 1. Introduction
 
 Imagine you are working on a project and you have just committed a change that you want to undo. How do you do that? In this challenge, you will learn how to undo a commit using the `git revert` command.
 

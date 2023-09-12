@@ -20,7 +20,7 @@ Base64 works with sequences of 6 bits. With sequences of 6 bits you can form at 
 
 Such a scheme that allows us to translate characters to bits and vice versa is called an **encoding scheme**. Many different encoding schemes exist, each with their own sequence length. To give some examples, Base64, ASCII and UTF-8 are commonly used schemes.
 
-## Why is it used?
+### Why is it used?
 
 The power of Base64 lies in the fact that (almost) only the characters A-Za-z0-9 can be represented. These characters are very plain and are seldomly assigned special meaning in a system.
 
@@ -28,7 +28,7 @@ More complex text often has characters that can only be represented by encoding 
 
 Base64 allows us to represent bits as text that does not contain any of these special characters. This is an interesting format to send text across the internet or to store it without problems because most programs and systems will not give special meaning to any of the characters used in Base64 text.
 
-## Enconding & Decoding
+### Enconding & Decoding
 
 Base64 is an interesting format, but how can we translate text from and to Base64?
 
@@ -45,7 +45,7 @@ This translation happens by converting the text to bits according to its encodin
 
 You will often encounter Base64 when surfing on the internet or looking in a database. Now that you can translate Base64 you can always take a peek under the hood!
 
-## Important Notice
+### Important Notice
 
 Encoding text to Base64 is not a means of encyrption. By converting text to Base64 it is no longer human readable. But everyone can translate Base64 back to human readable text. **It is not a safe way to encrypt sensitive information.**
 

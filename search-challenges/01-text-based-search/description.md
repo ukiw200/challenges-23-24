@@ -1,6 +1,6 @@
 # Search
 
-# 1. Introduction
+## 1. Introduction
 
 Being able to effectively find and critically review information on the internet is an important skill for an IT professional. In the following challenge, you will be presented with a series of questions. Create a solution.txt and write down each answer on a separate line.
 
