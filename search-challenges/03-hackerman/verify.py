@@ -1,4 +1,4 @@
-import re
+import re, os
 
 class bcolors:
     HEADER = '\033[95m'
@@ -10,8 +10,11 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-    
-text_file = open("alice.txt", "r")
+
+def hackfile(path) : 
+    return os.path.dirname(os.path.abspath(__file__)) + "/" + path
+
+text_file = open(hackfile("alice.txt"), "r")
 data = text_file.read()
 text_file.close()
 
@@ -31,5 +34,6 @@ bar =  map(lambda x:x*x, foo)
 
 for x in bar:
     print(x)
-#solutions =  raw_solutions[re.match(x, "< ?(.+)") for x in range(len(raw_solutions))]
-#print(solutions)
+
+solutions =  map(lambda x : re.match(x, "< ?(.+)"), raw_solutions)
+print(list(solutions))
