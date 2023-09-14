@@ -34,6 +34,14 @@ bar =  map(lambda x:x*x, foo)
 
 for x in bar:
     print(x)
+print(raw_solutions)
 
-solutions =  map(lambda x : re.match(x, "< ?(.+)"), raw_solutions)
+regex_pattern = re.compile("(< ).+")
+print("foo")
+print(regex_pattern.match("< foo"))
+print(regex_pattern.match('> [0-9]{1-3}.[0-9]{1-3}.[0-9]{1-3}.[0-9]{1-3}\n'))
+print("bar")
+
+solutions =  list(map(lambda x : re.match(x, "< (.+)"), raw_solutions))
+print(solutions)
 print(list(solutions))
