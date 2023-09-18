@@ -14,7 +14,7 @@ Complete the following free rooms on "Try Hack Me":
 - https://tryhackme.com/room/phishingemails1tryoe
 - https://tryhackme.com/room/phishingemails2rytmuv
 
-Based on the knowledge and experience you gained in the above rooms, take a look at the e-mail Email1.eml in the attachments folder and answer the following questions (1 line per answer):
+Based on the knowledge and experience you gained in the above rooms, take a look at the e-mail Email1.eml in the attachments folder and answer the following questions in a file `solution.txt` (1 line per answer):
 
 1. Originating IP:
 2. Attacker email:

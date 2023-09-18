@@ -37,7 +37,7 @@ Time to make sure that the installation was successful:
    git config --global user.email "jan.janssens@student.ucll.be"
    ```
    with your own email address between the quotes
-1. Voer in:
+1. Enter:
    ```bash
    git config --global user.name "Jan Janssens"
    ```

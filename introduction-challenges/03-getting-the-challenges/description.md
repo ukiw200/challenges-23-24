@@ -14,7 +14,7 @@ In this challenge we will make sure that you have access to the challenges on yo
 
 ### 3.1. Accept the GitHub Classroom Assignment
 
-1. Navigate to <a href="link toevoegen" target="_blank">this page</a>
+1. Navigate to GitHub Classroom (you can find the link on Toledo) 
 1. Select your name from the list
     * Selecting your name in assignments like this makes sure that we see your real name instead of your GitHub username in overview screens
     * This is very helpful for us when managing large groups of students (eg. when searching the repository of a certain student)
@@ -43,7 +43,7 @@ In this challenge we will make sure that you have access to the challenges on yo
      * On macOS, opening a terminal (enter `terminal` in Spotlight Search)
 1. Navigate to the folder where you want to store the challenges on your pc
      * You can do this by typing `cd "/path/to/folder"` in your shell
-     * For example `cd "/mnt/c/Bram/Vakken/2023 - 2024/Introductieproject/challenges-23-24"`
+     * For example `cd "/mnt/c/Bram/Vakken/2023 - 2024/Introductieproject"`
 1. Enter:
    ```bash
    git clone <copied-url>
@@ -65,4 +65,4 @@ In this challenge we will make sure that you have access to the challenges on yo
 
 That's it! But what have we done exactly? What is git and GitHub, why is it so important and how does it work?
 
-The best way to find out is by continuing with the [git challenges](./../../git-challenges/01-basics/git-basics.md) on your own computer.
+The best way to find out is by continuing with the [git challenges](./../../git-challenges/01-basics/git-basics.md) on your own computer. But check out the [readme](./../../README.md) first!

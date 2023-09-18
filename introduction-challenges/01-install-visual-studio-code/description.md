@@ -20,4 +20,4 @@ In this challenge we will install and configure Visual Studio Code.
         * Install Visual Studio Code in the suggested location
         * Let the installer add `Open with Code` to the context menu (both file and directory)
         * Let the installer add the program to the PATH
-3. Let the installer finish and open VS Code
+3. Let the installer finish and open VS Code to see if the installation was succesful

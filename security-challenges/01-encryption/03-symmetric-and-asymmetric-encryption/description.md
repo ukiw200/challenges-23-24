@@ -12,7 +12,7 @@ One of the main takeaways is that there are two classes of encryption techniques
 
 Asymmetric encryption relies on key-pairs consisting of a public and a private key. One key is used for decrypting and one key is used for encrypting. Note that this means that you can use RSA for two very different use-cases:
 * Encrypt with the public key and decrypt with the private key: this is a very secure way to send someone an encrypted message. Suppose that Alice wants to receive a message from Bob. Alice creates a key-pair and gives the public key to Bob. He encrypts the message with the public key. Since only Alice has the private key, she is the only one that can decrypt the message. It is not bad if someone else gets his hands on the public key, that only means that that person can create encrypted messages that Alice could decipher.
-* Encrypt with the private key and decrypt with the public key: there is no security since everyone can get hold of the public key. However, since only one person holds the private key that corresponds to that public key this is a very strong technique to confirm your identity. We will use this idea in the [challenge on SSH-keys](./../../../git-challenges/04-ssh/04-ssh.md).
+* Encrypt with the private key and decrypt with the public key: there is no security since everyone can get hold of the public key. However, since only one person holds the private key that corresponds to that public key this is a very strong technique to confirm your identity. We will use this idea in the [challenge on SSH-keys](./../../../git-challenges/04-ssh/description.md).
 
 ## 2. Challenge
 
@@ -26,7 +26,7 @@ The encrypted message is as follows:
 lui6+keJcMbAdzM2gYF27xEFI1dNhOEc0DQfg0W3eLbqlYIEym2oU7ht+0tf6eN6SmQ7d19QJqnms+eX9cmsHN/vLH52Jc1MXBrPsvVNkuTMRlw257ax8zIlu9QzL74QT77oSjJ8tzvkNSePUn3RfMr3fkV3Ef5Mdee6lLwgHC0=
 ```
 
-(As an aside, not how the encrypted message is also encoded in [Base 64](../01-base64/01-base64.md).)
+(As an aside, note how the encrypted message is also encoded in [Base 64](../01-base64/description.md).)
 
 The public key is as follows:
 
