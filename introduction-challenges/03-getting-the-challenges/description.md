@@ -65,4 +65,4 @@ In this challenge we will make sure that you have access to the challenges on yo
 
 That's it! But what have we done exactly? What is git and GitHub, why is it so important and how does it work?
 
-The best way to find out is by continuing with the [git challenges](./../../git-challenges/01-basics/git-basics.md) on your own computer. But check out the [readme](./../../README.md) first!
+The best way to find out is by continuing with the [git challenges](./../../git-challenges/01-basics/description.md) on your own computer. But check out the [readme](./../../README.md) first!

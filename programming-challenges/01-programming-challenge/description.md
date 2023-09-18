@@ -6,7 +6,7 @@ This challenge will give you a first glimpse at programming.
 
 You will learn how to program vehicles to make them navigate a maze.
 
-You can start the challenge by opening the file `tests.html` from the folder [challenge-files](./challenge/) in a web browser.
+You can start the challenge by opening the file `tests.html` from the folder [challenge-files](./challenge-files/) in a web browser.
 
 You can write your own code in the file `student.js`. After writing code you can refresh your browser to see the results.
 

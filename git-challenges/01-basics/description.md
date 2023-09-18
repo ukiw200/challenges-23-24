@@ -2,7 +2,7 @@
 
 ## 1. Prerequisites
 
-[git introduction](./../00-introduction/00-introduction.md) read and movies watched.
+[git introduction](./../00-introduction/description.md) read and movies watched.
 
 ## 2. Introduction
 
