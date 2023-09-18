@@ -1,6 +1,6 @@
 # The Cyber Kill Chain
 
-![Alt text](images/SunTzu.jpg?raw=true "Sun Tzu - The Art of War")
+![Alt text](./images/SunTzu.jpg?raw=true "Sun Tzu - The Art of War")
 
 
 This challenge is built upon the structure of a cyber attack (as described by Martin Lockheed in the Cyber Kill Chain paper). The Cyber Kill Chain paper can be found at https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/Gaining_the_Advantage_Cyber_Kill_Chain.pdf. However, there is a really cool video explaining it all very well - if you don't like to read: https://www.youtube.com/watch?v=II91fiUax2g 
