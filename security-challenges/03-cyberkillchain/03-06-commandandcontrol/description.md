@@ -39,11 +39,11 @@ On this page (https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repe
 - When parsing the Macro, what was the first suspicious behavior dectected? We need the exact wording as mentioned in the output: 
 - Sysmon is a tool available in the Microsoft ... (enter the useful toolset we already mentioned in this challenge that contains Sysmon as well): 
 - What sysmon event ID notified us about the creation of Script.ps1 file? 
-- What's the name of the first scheduled task created to obtain persistence? 
-- what's the name of the second scheduled task created? 
+- What's the name of the first scheduled task created to obtain persistence? (one word, contains upper and lower case letters as mentioned in the report)
+- what's the name of the second scheduled task created? (one word, contains upper and lower case letters as mentioned in the report)
 - For discovering the current state of the victim's antivirus product, what command is executed (hint: powershell command)? 
 - (this line does not generate an answer line in your solution.txt file) Run this command on your own laptop/pc to see if your antivirus is working correctly and up-to-date.
-- How did the attackers grab the data (we need the generic name for this type of maware): 
+- How did the attackers grab the data (we need the generic name for this type of maware, all lowercases): 
 - What's the full Mitre Technique ID for this activity? 
 - Data was sent (exfiltrated) to the C2 server at this IP address: 
 - What's the full Mitre Technique ID for this activity? 

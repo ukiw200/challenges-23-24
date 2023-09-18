@@ -8,8 +8,8 @@ Did you enable the macro in Word on your computer? This could have been dangerou
 Check both tools for this file.
 
 The flag is composed of several lines, one line per answer:
-- Line 1: MD5 hash of the file
+- Line 1: MD5 hash of the file (all lowercase letters)
 - Line 2: What MITRE Technique is being used (we need the identifier, starting with T)? 
-- Line 3: What was the main goal of using this technique? Hint: two words starting with “D”
-- Line 4: How do hackers mostly do this? Hint: One word starting with “O”
+- Line 3: What was the main goal of using this technique? Hint: two words starting with “D” (first letter of each word capitalized)
+- Line 4: How do hackers mostly do this? Hint: One word starting with “O” (only first letter capitalized)
 - Line 5: What's the hidden flag in this document? Hint: the flag starts with "flag{"
