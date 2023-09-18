@@ -24,9 +24,8 @@ The flag corresponds to the highlighted number (xxxxxxx) in the third column. Ex
 Using the whois command is often the first thing to check for a website. It is available in any Linux environment or WSL in your Windows environment (or also in the Microsoft SysInternals Suite, highly underestimated tools which are very useful for security purposes, documentation: https://learn.microsoft.com/en-us/sysinternals/). Using whois, answer the following questions.
 
 The flag is composed of several lines, one line per answer:
-- Line 1: The name of the registrar for the UCLL website
-- Line 2: The name (EN abbreviation) of the law preventing to show too much information when performing the whois command
-- Line 3: The full name of the registrar for the Microsoft website 
+- Line 1: The name of the registrar for the UCLL website (in capitals)
+- Line 2: The name (EN abbreviation, in capitals) of the law preventing to show too much information when performing the whois command
+- Line 3: The full name of the registrar for the Microsoft website (as mentioned in whois)
 - Line 4: The IANA ID number of the registrar for the Microsoft website 
-- Line 5: The full mail address of the domain administrator
-
+- Line 5: The full mail address of the domain administrator (all lowercases)
