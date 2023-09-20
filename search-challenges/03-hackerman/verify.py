@@ -18,7 +18,17 @@ text_file = open(hackfile("alice.txt"), "r")
 data = text_file.read()
 text_file.close()
 
-message = "Great, you managed to find the find my notes. I can finally speak freely now that nobody can overhear. Your first step will be to find the access server. I wrote it down in my notes somewhere. It should not be too hard to find. We want to find the server's ip address. This is a sequence of 3 numbers, between 0 and 255. This is repeated 4 times, separated by dots. An example would be '129.178.255.211'"
+message = ["Great, you managed to find the find my notes",
+           "I need you to access my computer, but I forgot my password",
+           "It's a English word followed by a number with multiple digits",
+           "I can look through the book, but I need you to give me the regex to find it",
+           "A regex is a vital skill for h4X00rz, it allows you to find stuff fast",
+           "",
+           "But you don't know what it is yet.",
+           "I'd explain it, but the cops are banging on my door",
+           "goto https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html",
+           "",
+           "just put your regex in the (now empty) solution.txt and run the script"]
 
 for m in message:
     print(m)
