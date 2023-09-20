@@ -21,7 +21,7 @@ In that case, overwrite the file "student.js" in the challenge folder with the f
 Complete all levels up to and including "zigZag". All levels after "zigZag" are optional. 
 
 To complete this challenge, commit the following:
-* A screenshot from the file `tests.html` opened in the browser. Make sure that they green squares are visible in your screenshot so we can see how far you got. 
+* A screenshot from the file `tests.html` opened in the browser. Make sure that the green squares are visible in your screenshot so we can see how far you got. 
 * The file `student.js` with all your written code
 
 ## 3. Extra

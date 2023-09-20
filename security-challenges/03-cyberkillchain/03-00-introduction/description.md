@@ -9,6 +9,6 @@ Other frameworks about the attaking process have been defined and are very relev
 - MITRE ATT&CK Framework (https://attack.mitre.org/): A map of all tactics, techniques and procedures already used by some really advanced hacker groups (also called APT's = Advanced Persistent Threat). Explanation Video: https://youtu.be/GYyLnff2XRo 
 - Unified Kill Chain (https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf): Combining the Cyber Kill Chain and MITRE ATT&CK framework since more and more attacks are not just one end-to-end process and one attack can involve multiple cyber kill chains in order to obtain the final objective.
 
-For each challenge there will be one or more flag(s) to find. The flags (and format) will be specified. Each flag requires a new line in your solution.txt file. Most of the challenges will require multiple lines in your solution.txt file (one line for each answer).
+For each challenge there will be one or more flag(s) to find. The flags (and format) will be specified.
 
 Good luck in your attacking adventure!

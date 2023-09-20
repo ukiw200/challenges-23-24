@@ -17518,7 +17518,7 @@ async function createChapter(student) {
                                 i = i - 1;
                             }
                         }
-                    `, 'manueel tellen'),
+                    `, 'manual counting'),
                     this.wrapSolution(`
                         function spiral(car) {
                             while(!sensor(car)){
@@ -17526,7 +17526,7 @@ async function createChapter(student) {
                                 turnRight(car);
                             }
                         }
-                    `, 'met sensor')
+                    `, 'with sensor')
                 ];
             }
         };
@@ -17832,7 +17832,7 @@ async function createChapter(student) {
 
                 function firstRight(car)
                 {
-                    // Mogelijk gebruik
+                    // Possible use
                     while ( sensorRight(car) )
                     {
                         forward(car);
