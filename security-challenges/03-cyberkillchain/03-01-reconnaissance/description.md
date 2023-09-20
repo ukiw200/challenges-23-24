@@ -28,4 +28,4 @@ The flag is composed of several lines, one line per answer:
 - Line 2: The name (EN abbreviation, in capitals) of the law preventing to show too much information when performing the whois command
 - Line 3: The full name of the registrar for the Microsoft website (as mentioned in whois)
 - Line 4: The IANA ID number of the registrar for the Microsoft website 
-- Line 5: The full mail address of the domain administrator (all lowercases)
+- Line 5: The full mail address of the Tech Email (all lowercases)
