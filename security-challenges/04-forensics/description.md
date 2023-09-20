@@ -16,15 +16,15 @@ Complete the following free room on "Try Hack Me":
 
 (Expert: For those of you who really want to get your hands dirty, you can complete this amazing room on Windows forensics: https://tryhackme.com/room/windowsforensics1)
 
-Create a textfile solution.txt in the directory of this file. Answer the following questions (a new line for each answer) and push your solution to your GitHub repository:
+Create a textfile solution.txt in the directory of this file. Answer the following questions (a new line for each answer, all in capitals) and push your solution to your GitHub repository:
 
 1. Complete the timeline creation exercise in the attached static site in this room. What is the flag that you get after completion?
 
 2. What forensics tool does remind us of a murder investigation?
 
-3. If an incident occurred, it has been investigated and we have found the IP of the botnet server that was instructing bots to attack company ACME, what does this IP represent? We are looking for the abbreviation.
+3. If an incident occurred, it has been investigated and we have found the IP of the botnet server that was instructing bots to attack company ACME, what does this IP represent? We are looking for the abbreviation. Hint: answer can be found on https://attack.mitre.org/resources/sightings/ and has nothing to do with the Olympics.
 
-Your textfile should contain 3 lines (all capitals).
+Your textfile should contain 3 lines (all in capitals).
 
 ## 4. General rules
 
