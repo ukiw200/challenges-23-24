@@ -1,6 +1,6 @@
 # Reconnaissance
 
-Read about the reconnaissance phase of the cyber kill chain. Can you tell the difference between active and passive reconnaissance? 
+Read/Watch about the reconnaissance phase of the cyber kill chain (in the resources mentioned in the previous challenge). Can you tell the difference between active and passive reconnaissance?
 
 #### 1 Active versus Passive Reconnaissance
 
