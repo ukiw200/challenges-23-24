@@ -15,7 +15,7 @@ The flag corresponds to the three letters (A or P) that correspond to the answer
 
 Info: https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practical-tutorial/
 
-Google Dork the internet to find a PDF file from the UCCL college in which there is a list of student numbers listed in classes for a certain bachelor programme ("indeling") in the year 2019. All you know is that it's for the year 2019. In case you would find two similar files, take the one where some student numbers are highlighted.
+Google Dork the internet to find a PDF file from the UCLL college in which there is a list of student numbers listed in classes for a certain bachelor programme ("indeling") in the year 2019. All you know is that it's for the year 2019. In case you would find two similar files, take the one where some student numbers are highlighted.
 
 The flag corresponds to the highlighted number (xxxxxxx) in the third column. Example: __0864795__
 
