@@ -13,7 +13,7 @@ You can view the source code of the markdown file by opening the file. By select
 
 Since you'll be reading markdown files instead of writing them most of the time it might be useful to change the default behaviour to preview mode.
 
-Go to Settings -> Workbench -> Editor Associations. Select "Add Item" and add the value `vscode.markdown.preview.editor` for item `\*.md`. 
+Go to Settings -> Workbench -> Editor Associations. Select "Add Item" and add the value `vscode.markdown.preview.editor` for item `*.md`. 
 
 Markdown files are now openend in preview instead of source code by default.
 
