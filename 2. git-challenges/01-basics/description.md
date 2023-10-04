@@ -83,7 +83,7 @@ Create a subfolder named 'challenge-1' in the '01-basics' folder. Create a new f
 
 We will now make sure that all our files are tracked by git. If you have been following the challenges only your solution to this challenge has been pushed to GitHub. All the other files you copied from the source repository are not yet pushed.
 
-By running the following commands you add all your changed or untracked files to a commit with a descriptive message:
+By running the following commands you add all your changed and untracked files to a commit with a descriptive message:
 
  ```console
     $ git add -A

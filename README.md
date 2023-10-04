@@ -2,6 +2,10 @@
 
 Open this folder in Visual Studio Code to easily work with the challenges.
 
+We advise you to complete the challenges in their numbered order. Start with the introduction challenges and then the git challenges. Afterwards the order can be freely chosen.
+
+## Working with markdown
+
 Every challenge is presented as a _markdown_ file.
 
 A markdown file is a text file that uses markup syntax to add formatting and structure to the text. It is often used to create documentation.
@@ -9,7 +13,7 @@ Throughout the challenges, we will be using markdown files to describe what need
 
 You can view the source code of the markdown file by opening the file. By selecting the preview button you can view the compiled document.
 
-## Open in Preview mode by default
+### Open preview by default
 
 Since you'll be reading markdown files instead of writing them most of the time it might be useful to change the default behaviour to preview mode.
 
