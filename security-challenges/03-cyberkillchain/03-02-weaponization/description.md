@@ -7,9 +7,13 @@ Did you enable the macro in Word on your computer? This could have been dangerou
 
 Check both tools for this file.
 
+## Challenge
+
+Create a file called solution.txt in this directory. It will eventually have five lines, as detailed below:
+
 The flag is composed of several lines, one line per answer:
 - Line 1: MD5 hash of the file (all lowercase letters)
 - Line 2: What MITRE Technique is being used (we need the identifier, starting with T)? 
-- Line 3: What was the main goal of using this technique? Hint: two words starting with “D” (first letter of each word capitalized)
-- Line 4: How do hackers mostly do this? Hint: One word starting with “O” (only first letter capitalized) & can be found on https://www.picussecurity.com/resource/blog/picus-10-critical-mitre-attck-techniques-t1064-scripting (the word is mentioned 9 times, but sometimes the verb is used in the past, we need the term ending on "on")
+- Line 3: What was the main goal of using this technique?
+- Line 4: How do hackers mostly do this? Hint: Look at https://www.picussecurity.com/resource/blog/picus-10-critical-mitre-attck-techniques-t1064-scripting (the word we're looking for is mentioned several times, write the noun form of the word - ending in "on")
 - Line 5: What's the hidden flag in this document? Hint: the flag starts with "flag{"

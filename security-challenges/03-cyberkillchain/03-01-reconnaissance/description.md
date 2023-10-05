@@ -2,6 +2,9 @@
 
 Read/Watch about the reconnaissance phase of the cyber kill chain (in the resources mentioned in the previous challenge). Can you tell the difference between active and passive reconnaissance?
 
+#### Challenge
+Create a file `solution.txt` in this directory. Your solution will eventually consist of 7 lines, filled in with answers from the following sections.
+
 #### 1 Active versus Passive Reconnaissance
 
 Below are three actions performed by a hacker, what type of reconnaissance is the hacker doing (answer only with “A” for active and “P” for Passive)? 
@@ -11,6 +14,8 @@ Below are three actions performed by a hacker, what type of reconnaissance is th
 
 The flag corresponds to the three letters (A or P) that correspond to the answers. For example, if you would answer P three times: __PPP__.
 
+Enter these three letters as the first line of your solution file.
+
 #### 2 Google Dorking
 
 Info: https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practical-tutorial/
@@ -18,6 +23,8 @@ Info: https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practica
 Google Dork the internet to find a PDF file from the UCLL college in which there is a list of student numbers listed in classes for a certain bachelor programme ("indeling") in the year 2019. All you know is that it's for the year 2019. In case you would find two similar files, take the one where some student numbers are highlighted.
 
 The flag corresponds to the highlighted number (xxxxxxx) in the third column. Example: __0864795__
+
+Enter these numbers as the second line of your solution file.
 
 #### 3 Whois
 
@@ -28,4 +35,6 @@ The flag is composed of several lines, one line per answer:
 - Line 2: The name (EN abbreviation, in capitals) of the law preventing to show too much information when performing the whois command
 - Line 3: The full name of the registrar for the Microsoft website (as mentioned in whois)
 - Line 4: The IANA ID number of the registrar for the Microsoft website 
-- Line 5: The full mail address of the Tech Email (all lowercases)
+- Line 5: The full e-mail address of the Tech Email (all lowercases)
+
+Fill these answers in on lines 3-7 in your solution file.

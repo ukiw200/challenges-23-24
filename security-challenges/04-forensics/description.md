@@ -16,7 +16,7 @@ Complete the following free room on "Try Hack Me":
 
 (Expert: For those of you who really want to get your hands dirty, you can complete this amazing room on Windows forensics: https://tryhackme.com/room/windowsforensics1)
 
-Create a textfile solution.txt in the directory of this file. Answer the following questions (a new line for each answer, all in capitals) and push your solution to your GitHub repository:
+Create a textfile solution.txt in the directory of this file. Answer the following questions (a new line for each answer, all in capitals):
 
 1. Complete the timeline creation exercise in the attached static site in this room. What is the flag that you get after completion?
 

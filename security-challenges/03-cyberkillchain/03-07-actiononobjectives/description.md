@@ -8,4 +8,8 @@ A threat actor can either be an individual, but most likely it will be a group o
 - making a statement for good purposes (performed by hacktivists) or for bad purposes like terrorism (performed by terrorist groups), often by performing a denial-of-service (DoS) attack
 - making a statement for bad purposes form inside of the organization (performed by insiders)
 
-In the previous report, what is the general motivation of the APT that was behind the incident (we only need the first word of the previously mentioned motivations, all lowercases): 
+## Challenge
+
+In the previous report, what is the general motivation of the APT that was behind the incident? 
+
+Create a solution.txt file and include only the first word of this motivation. You can find it in the list of motivations mentioned above.

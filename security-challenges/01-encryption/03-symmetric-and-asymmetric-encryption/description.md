@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Ceasar Cipher is a fun way to encrypt a message between friends but it is hardly secure enough for real world systems.
+Caesar Cipher is a fun way to encrypt a message between friends but it is hardly secure enough for real world systems.
 
 Take a look at the [following movie](https://www.youtube.com/watch?v=jhXCTbFnK8o) to get a good overview on multiple encryption techniques.
 

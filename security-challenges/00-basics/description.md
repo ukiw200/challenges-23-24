@@ -45,13 +45,13 @@ Complete the following free rooms on "Try Hack Me":
 
 Create a textfile solution.txt in the directory of this file. Answer the following questions (a new line for each answer) and push your solution to your GitHub repository:
 
-1. What website is useful to know about when checking if your account (and possibly the password for it) might have been leaked through a data breach? (format: xxx.com, so no "https" or "www" or whatsoever in front of the URL) (no capitals, all small characters)
+1. What website is useful to know about when checking if your account (and possibly the password for it) might have been leaked through a data breach? (format: xxx.com, so no "https" or "www" or whatsoever in front of the URL)
 
-2. What famous hackers collective has been in the news many times already? Their logo has been used in many movies and tv shows too. (format: xxx) (no capitals, all small characters)
+2. What famous hackers collective has been in the news many times already? Their logo has been used in many movies and tv shows too. (format: xxx)
 
-3. What type of motivation is behind this collective? (format: xxx) (no capitals, all small characters)
+3. What type of motivation is behind this collective? (format: xxx)
 
-Your textfile should contain 4 lines.
+Your textfile should contain 4 lines (no capitals, all small characters).
 
 ## 4. General rules
 

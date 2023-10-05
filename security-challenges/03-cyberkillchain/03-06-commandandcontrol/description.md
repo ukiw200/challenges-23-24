@@ -32,18 +32,24 @@ These C2 frameworks provide various capabilities, including the ability to execu
 
 The knowledge and understanding of C2 infrastructure are essential for both offensive (ethical hacking, penetration testing) and defensive (cybersecurity) purposes.
 
-On this page (https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/), you can find a detailled report of a cyber security incident, which has been occurring since August 2022. Read the report and try to understand the concepts we have seen. Answer the following questions:
+On this page (https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/), you can find a detailed report of a cyber security incident, which has been occurring since August 2022. Read the report and try to understand the concepts we have seen. 
 
-- What APT was behind the incident? We need the MITRE ID of this APT Group: 
-- What was most likely the delivery method of the malicous Word file? We need the Mitre Technique ID:  
-- When parsing the Macro, what was the first suspicious behavior dectected? We need the exact wording as mentioned in the output: 
-- Sysmon is a tool available in the Microsoft ... (enter the useful toolset we already mentioned in this challenge that contains Sysmon as well): 
-- What sysmon event ID notified us about the creation of Script.ps1 file? 
-- What's the name of the first scheduled task created to obtain persistence? (one word, contains upper and lower case letters as mentioned in the report)
-- what's the name of the second scheduled task created? (one word, contains upper and lower case letters as mentioned in the report)
-- For discovering the current state of the victim's antivirus product, what command is executed (hint: powershell command)? 
-- (this line does not generate an answer line in your solution.txt file) Run this command on your own laptop/pc to see if your antivirus is working correctly and up-to-date.
-- How did the attackers grab the data (we need the generic name for this type of maware, all lowercases): 
-- What's the full Mitre Technique ID for this activity? 
-- Data was sent (exfiltrated) to the C2 server at this IP address: 
-- What's the full Mitre Technique ID for this activity? 
+## Challenge
+
+Create a solution.txt file in this directory. It will eventually consist of 12 lines.
+
+Answer the following questions:
+
+- Line 1: What APT was behind the incident? We need the MITRE ID of this APT Group: 
+- Line 2: What was most likely the delivery method of the malicous Word file? We need the Mitre Technique ID:  
+- Line 3: When parsing the Macro, what was the first suspicious behavior dectected? We need the exact wording as mentioned in the output: 
+- Line 4: Sysmon is a tool available in the Microsoft ... (enter the useful toolset we already mentioned in this challenge that contains Sysmon as well): 
+- Line 5: What sysmon event ID notified us about the creation of Script.ps1 file? 
+- Line 6: What's the name of the first scheduled task created to obtain persistence? (one word made up of two words, mentioned in the report)
+- Line 7: what's the name of the second scheduled task created? (one word made up of several words, mentioned in the report)
+- Line 8: For discovering the current state of the victim's antivirus product, what command is executed (hint: powershell command)? 
+- (do not include this in your solution.txt file) Run this command on your own laptop/pc to see if your antivirus is working correctly and up-to-date.
+- Line 9: How did the attackers grab the data (we need the generic name for this type of maware): 
+- Line 10: What's the full Mitre Technique ID for this activity? 
+- Line 11: Data was sent (exfiltrated) to the C2 server at this IP address: 
+- Line 12: What's the full Mitre Technique ID for this activity?
