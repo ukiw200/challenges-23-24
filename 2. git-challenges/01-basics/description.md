@@ -24,7 +24,24 @@ Finally, with `git push` you upload your local commits to a remote git repositor
 
 To complete this challenge successfully, you should start a Git bash session in the folder where you have cloned the git-challenges repository. So not in the subdirectory "git-challenges/01-basics", but in the parent directory.
 
-### 3.1. Add, commit and push a file
+### 3.1. Add, commit and push all untracked files
+
+First of all, we will make sure that all our files are tracked by git.
+
+1. By running these commands you add all your changed and untracked files to a commit with a descriptive message:
+
+    ```console
+        $ git add -A
+        $ git commit -m "Commit initial challenges"
+    ```
+
+1. Afterwards you can push the commit to your repository with this command:
+
+    ```console
+        $ git push
+    ```
+
+### 3.2. Add, commit and push a file
 
 1.  Create a new empty file in the same folder as these instructions (git-challenges/01-basics) with the name "solution.txt".
 1.  In Git bash (started in the root challenges folder), run the following command:
@@ -53,10 +70,10 @@ To complete this challenge successfully, you should start a Git bash session in 
 
 
     ```console
-    $ git add git-challenges/01-basics/solution.txt
+    $ git add "2. git-challenges/01-basics/solution.txt"
     $ git commit -m "Solution file"
     ```
-    Via `git add` you tell git to track the file, `git commit` is going to effectively add the file to the local repository. With the "-m" option, you add a message to the commit.
+    Via `git add` you tell git to track the file, `git commit` is going to effectively add the file to the local repository. With the "-m" option, you add a message to the commit. Alternatively you could also use `git add -A` to add **all** untracked and changed files. 
 
 1.  Now go to your github repository via a browser and navigate to the "git-challenges/01-basics" folder. As you can see, your solution.txt file is not there yet. This is because we need to "push" the changes you just made on your local repository to the remote version:
 
@@ -75,26 +92,11 @@ To complete this challenge successfully, you should start a Git bash session in 
     nothing to commit, working tree clean
     ```
 
-### 3.2. Add, commit and push a folder
+### 3.3. Add, commit and push a folder
 
-Create a subfolder named 'challenge-1' in the '01-basics' folder. Create a new file "solution.txt" with the text `challenge 1 completed` on the first line. Make sure that this folder is pushed to your remote repository.
+Create a subfolder named 'challenge-1' in the '01-basics' folder. Create a new file "solution.txt" with the text `challenge 1 completed` on the first line. 
 
-### 3.3. Add, commit and push all untracked files
-
-We will now make sure that all our files are tracked by git. If you have been following the challenges only your solution to this challenge has been pushed to GitHub. All the other files you copied from the source repository are not yet pushed.
-
-By running the following commands you add all your changed and untracked files to a commit with a descriptive message:
-
- ```console
-    $ git add -A
-    $ git commit -m "Commit all remaining challenges"
-```
-
-Afterwards you can push the commit to your repository:
-
-```console
-    $ git push
-```
+Make sure that this folder is pushed to your remote repository. Use the sequence of `git add`, `git commit` and `git push` to do this.
 
 ## 4. General rules
 

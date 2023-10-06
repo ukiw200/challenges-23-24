@@ -8,7 +8,8 @@ def verify():
     with open('solution.txt') as file:
         solution = sha1(file.read().strip().encode('utf-8')).hexdigest()
 
-    assert solution == '66918b524219ea3ae22e98bfd330ed920691a26a' or solution == 'b9375ccde73c8cf45f53c95130f84ca71cc83044', 'FAIL: incorrect solution'
+    assert (solution == '66918b524219ea3ae22e98bfd330ed920691a26a' or solution == 'b9375ccde73c8cf45f53c95130f84ca71cc83044'
+        or solution == 'b545cbafc58333b0a022f994d1dd1dac3e5ac06b'), 'FAIL: incorrect solution'
 
     solution2Path = os.path.join('challenge-1', 'solution.txt')
     assert os.path.exists(
