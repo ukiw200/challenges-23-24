@@ -22,7 +22,7 @@ Finally, with `git push` you upload your local commits to a remote git repositor
 
 ## 3. Challenge
 
-To complete this challenge successfully, you should start a Git bash session in the folder where you have cloned the git-challenges repository. So not in the subdirectory "git-challenges/01-basics", but in the parent directory.
+To complete this challenge successfully, you should start a Git bash session in the root folder of your challenges-repository. So not in the subdirectory "2. git-challenges/01-basics", but in the parent directory.
 
 ### 3.1. Add, commit and push all untracked files
 
@@ -43,8 +43,8 @@ First of all, we will make sure that all our files are tracked by git.
 
 ### 3.2. Add, commit and push a file
 
-1.  Create a new empty file in the same folder as these instructions (git-challenges/01-basics) with the name "solution.txt".
-1.  In Git bash (started in the root challenges folder), run the following command:
+1.  Create a new empty file in the same folder as these instructions ("2. git-challenges/01-basics") with the name "solution.txt".
+1.  In Git bash (still running in the root folder), run the following command:
 
 
     ```console
@@ -75,7 +75,7 @@ First of all, we will make sure that all our files are tracked by git.
     ```
     Via `git add` you tell git to track the file, `git commit` is going to effectively add the file to the local repository. With the "-m" option, you add a message to the commit. Alternatively you could also use `git add -A` to add **all** untracked and changed files. 
 
-1.  Now go to your github repository via a browser and navigate to the "git-challenges/01-basics" folder. As you can see, your solution.txt file is not there yet. This is because we need to "push" the changes you just made on your local repository to the remote version:
+1.  Now go to your github repository via a browser and navigate to the "2. git-challenges/01-basics" folder. As you can see, your solution.txt file is not there yet. This is because we need to "push" the changes you just made on your local repository to the remote version:
 
 
     ```console
